@@ -1,0 +1,52 @@
+.bg
+{
+    margin: 0em;
+    padding: 0em;
+    background: url(images/pic02.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg button
+{
+    background: url(images/b.png) no-repeat;
+    background-size: 100% 100%;
+    border: 0px solid black;
+    font-size: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    
+    margin: 0.5em;
+    
+    color: white;
+}
+
+h1
+{
+    margin: 0em;
+    padding-left: 1em;
+}
+
+.wrap
+{
+    margin: 2em;
+}
+
+.wrap div
+{
+    width: 30%;
+    float: left;
+    background-color: white;
+    color: black;
+}
+
+.page1
+{
+    border: 2px solid black;
+}
+
+.wrap h1
+{
+    text-align: center;
+    padding-left: 0em;
+}
