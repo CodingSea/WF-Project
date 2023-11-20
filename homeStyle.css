@@ -3,7 +3,7 @@
     margin: 0em;
     padding: 0em;
     background: url(images/pic03.jpg) no-repeat;
-    background-size: 100% 150%;
+    background-size: 100% 100%;
 }
 
 .bg button
@@ -29,22 +29,24 @@ h1
 
 .wrap
 {
-    margin: 2em;
+    clear: both;
+    width: 100%;
+    display: table;
 }
 
 .wrap div
 {
-    width: 30%;
+    width: 25%;
     float: left;
     background-color: white;
     color: black;
     border: 2px solid black;
     border-radius: 2em;
-}
-
-.page1
-{
     
+    margin: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: table-cell;
 }
 
 .wrap h1

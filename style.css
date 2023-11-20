@@ -1,3 +1,4 @@
+/* Fahad page css*/
 body
 {
     background-color: lightgray;
@@ -34,14 +35,16 @@ body
     padding: 0;
     padding-left: 0.5em;
     float: left;
+    
 }
 
 .header img
 {
     background-color: #3d3d3d;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     float: right;
+    
     margin: 1em;
 }
 
@@ -56,7 +59,7 @@ body
 .navigation table
 {
     width: 40%;
-    //float: right;
+    /*float: right;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,8 +84,6 @@ body
 
 .navigation a:hover
 {
-    /*color: #e31818;*/
-}
     /*color: #e31818;*/
 }
 /* Fahad page css*/
@@ -145,4 +146,3 @@ body
     
 }
 /* fahad css */
->>>>>>> Stashed changes
