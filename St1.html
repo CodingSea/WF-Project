@@ -1,53 +1,203 @@
  <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title>conditionals</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="header">
-            <h1>Bahrain Polytechnic Library</h1>
-            <img src="images/logo.png">
+    <div id="main">
+        <div id="header">
+            <h1>conditionals and Loops</h1>
         </div>
-        <div class="navigation">
+        <div id="if">
+            <h2>if statment</h2>
+            <p>Conditionals in Python allow you to control the flow of your program based on certain conditions. They enable you to execute different blocks of code based on whether a condition is true or false. The main conditional statements in Python are if, elif (short for "else if"), and else. These statements evaluate a given condition and execute the corresponding block of code based on the result.
+
+                Here's a simple example that demonstrates the use of conditionals in Python:</p>
+                <p>In Python, logical operators are used in if statements to evaluate multiple conditions and make decisions based on the results.<br> There are three logical operators: and, or, and not.<br> Here's an explanation of each operator along with examples:<br>
+
+                  <br>  <b>1- And Operator:</b><br>
+                    
+                    The and operator returns True if both conditions on its left and right side are True.<br>
+                    If any of the conditions is False, the and operator returns False.<br>
+                    </p>
+                    <p>x = 5<br>
+                        y = 10<br>
+                        
+                        if x > 0 and y > 0:<br>
+                        &emsp;print("Both x and y are positive.")</p>
+                            <p>2- OR Operator:<br>
+
+                                The or operator returns True if at least one of the conditions on its left or right side is True.<br>
+                                If all conditions are False, the or operator returns False.<br>
+                                Example:</p>
+                                <p>age = 25<br>
+
+                                    if age < 18 or age > 60:<br>
+                                    &emsp; print("You are either too young or too old.")<br></p>
+
+                                <p>3- Not Operator:<br>
+
+                                    The not operator is used to negate the value of a condition. It returns the opposite boolean value of the condition.<br>
+                                    Example:</p>
+                                    <p>has_passed_exam = False<br>
+
+                                        if not has_passed_exam:<br>
+                                         &emsp; print("You have not passed the exam.")</p>
+        </div>
+        <div id="question">
+            [+] Answer the following question:<br>
+            Write a code that uses if statement and and operator to compare age variable<br>
+             and print on screen if this is and adult or underage?
+         </div>
+        <div id="btn">
+            <button type="button"  onclick="generate()">view answer</button>
+        </div>
+       
+        <script type="text/javascript">
+        function generate(){
+       document.getElementById("generated_code_space").style.backgroundColor = "white";
+        }
+       function generate2(){
+       document.getElementById("code").style.backgroundColor = "white";
+        }
+        function generate3(){
+       document.getElementById("code2").style.backgroundColor = "white";
+        }
+        function generate4(){
+       document.getElementById("code4").style.backgroundColor = "white";
+        }
+        function generate5(){
+       document.getElementById("code5").style.backgroundColor = "white";
+        }
+        function generate6(){
+       document.getElementById("code6").style.backgroundColor = "white";
+        }
+        function generate7(){
+       document.getElementById("code7").style.backgroundColor = "white";
+        }
+        function generate8(){
+       document.getElementById("code8").style.backgroundColor = "white";
+        }
+
+        </script>
+         
+        <div id="generated_code_space">
+            <p># set age variable<br>
+                age = int(22)<br>
+                # Check the age and display a message based on the condition <br>
+                if age < 18: <br>
+                    print('You are underage.') <br>
+                elif age >= 18 and age < 65: <br>
+                    print('You are an adult.')  <br>
+                else: <br>
+                    print('You are a senior citizen.')</p>
+      
+        </div>
+        <div id="cond_table">
             <table>
                 <tr>
-                    <td><a href="index.html">Home</a></td>
-                    <td><a href="St1.html">Page 1</a></td>
-                    <td><a href="St2.html">Page 2</a></td>
-                    <td><a href="St3.html">Page 3</a></td>
+                    <td class="firstr"> conditional  &emsp;&emsp;&emsp;</td>
+                    <td class="firstr"> &emsp;&emsp;&emsp;&emsp;code </td>
+                </tr>
+                <tr>
+                    <td>Normal If statement</td>
+                    <td id="code"><p>a = 33<br>
+                        b = 200<br>
+                        if b > a:<br>
+                          &emsp; print("b is greater than a")</p></td>
+                    <td><button type="button" onclick="generate2()"> click to generate code </button></td>
+                </tr>
+                <tr>
+                    <td>elseif & else</td>
+                    <td id="code2"><p>x = 0<br>
+
+                        if x > 0:<br>
+                        &emsp; print("x is positive.")<br>
+                        elif x < 0:<br>
+                        &emsp; print("x is negative.")<br>
+                        else:<br>
+                        &emsp; print("x is zero.")</p></td>
+                        <td><button type="button" onclick="generate3()"> click to generate code </button></td>
+                </tr>
+                <tr>
+                    <td>not operator</td>
+                    <td id="code4"><p>has_passed_exam = False<br>
+
+                        if not has_passed_exam:<br>
+                            &emsp;print("You have not passed the exam.")</p></td>
+                            <td><button type="button" onclick="generate4()"> click to generate code </button></td>
+                </tr>
+                <tr>
+                    <td>and operator</td>
+                    <td id="code5"><p>x = 10<br>
+                        y = 5<br>
+                        
+                        if x > 0 and y > 0:<br>
+                          &emsp;  print("Both x and y are positive.")</p></td>
+                          <td><button type="button" onclick="generate5()"> click to generate code </button></td>
                 </tr>
             </table>
+
         </div>
-        <div id="list">
-            <ul>
-                <lh>list:</lh>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            </div>
-            <div id="top-books">
-                <h1>Best  Books for 2023:</h1>
-                <p>[+] Book name &emsp;&emsp; [+] Book name &emsp;&emsp;[+] Book name </p>
-                <br>
-                <br>
-                <p>[+] Book name &emsp;&emsp; [+] Book name &emsp;&emsp;[+] Book name </p>
-                <br>
-                <br>
-                <p>[+] Book name &emsp;&emsp; [+] Book name &emsp;&emsp;[+] Book name </p>
-            </div>
-            <div id="AS">
-                <p><a href="#">About us</a> | <a href="#">Our story</a></p>
-            </div>
+        <div id="loops">
+            <h2>Loops</h2>
+            <table>
+                <tr>
+                    <td colspan="3"><p class="c">Loops in Python allow you to repeat a block of code multiple times, <br>
+                        making it easier to perform repetitive tasks. There are three <br>
+                        types of loops in Python: for loop, while loop, and do-while loop.<br>
+                         Here's an explanation of each loop type along with examples:</p></td>
+                         
+                </tr>
+                <tr>
+                    <td><p><b>for Loop:</b><br>
+
+                        The for loop is used to iterate over a sequence <br>
+                        (such as a list, tuple, or string) or other iterable objects.<br>
+                        It executes a block of code for each item in the sequence.</p>
+                        </td>
+                    <td id="code6"><span>fruits = ["apple", "banana", "cherry"]<br>
+
+                        for fruit in fruits:<br>
+                            &emsp; print(fruit)</td></span>
+                            <td><button type="button" onclick="generate6()"> click to generate code </button></td>
+                </tr>
+                <tr>
+                    <td><p><b>while Loop:</b><br>
+
+                        The while loop repeatedly executes a block of <br>
+                        code as long as a given condition is True.<br>
+                        It is useful when you don't know the number of <br>
+                        iterations in advance.</p>
+                        </td>
+                    <td id="code7"><span> count = 1<br>
+
+                        while count <= 5:<br>
+                            &emsp; print("Count:", count)<br>
+                           &emsp; count += 1</td></span>
+                    <td><button type="button" onclick="generate7()"> click to generate code </button></td>
+                </tr>
+                <tr>
+                    <td ><p><b>do-while Loop (emulated in Python):</b><br>
+
+                        Python doesn't have a built-in do-while loop,<br>
+                         but you can emulate it using a while loop with a <br>
+                         condition that is initially True.<br>
+                        The block of code is executed at least once, <br>
+                        and then the condition is checked for further iterations.</p></td>
+                    <td id="code8"> <span>count = 1<br>
+
+                        while True:<br>
+                            &emsp; print("Count:", count)<br>
+                            &emsp; count += 1<br>
+                            if count > 5:<br>
+                            &emsp;break</td></span>
+                    <td><button type="button" onclick="generate8()"> click to generate code </button></td>
+                </tr>
+            
+                </table>
+        </div>
     </div>
 </body>
 </html> 
