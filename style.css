@@ -89,41 +89,128 @@ body
 /* Fahad page css*/
 
 /* Abbas page css*/
-#list{
-    background-color: white;
-    width: 30%;
-    margin-top: -1.9em;
-    height:35em;
-    
-}
-#list ul{
-    color: black;
-    font-size: 2em;
-}
-#top-books{
-    background-color: #3d3d3d;
-    width:70%;
-    float: right;
-    margin-top: -35em;
-    height:35em;
-}
-#top-books h1{
-    font-size: 4em;
-    padding-left: 2em;
-}
-#top-books p{
-  
-    padding-left: 13em;
-}
-#AS{
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
-    text-align: center;
-    margin-top: -1em;
+    margin: 0;
+    padding: 0;
 }
-#AS a:link{
+
+#main
+{
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    text-decoration: none;
+}
+
+#header
+{
+    width: 100%;
+    clear: both;
+    background-color: goldenrod;
+    height: 150px;
+    text-align: center;
+}
+
+#header h1
+{
+    color: aliceblue;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 10em;
+    padding-left: 0.5em;
+    float: left;
     
+}
+
+#header img
+{
+    
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+h2 {
+color:goldenrod;
+padding: 1.5em;;
+text-align: center;
+}
+#if{
+    background-color: black;
+    width: 50%;
+    
+ 
+}
+#if p{
+    color: goldenrod;
+    margin-left: 7em;;
+    margin-right: 8em;
+}
+#btn button{
+    height: 3em;
+    width: 10em;
+    background-color: goldenrod;
+    margin-left: 5em;;
+    margin-top: 4em;
+}
+#generated_code_space{
+    width: 35%;
+    margin-left: 15em;;
+}
+#generated_code_space p {
+    color: black;
+}
+#cond_table{
+    margin-left: 55em;
+    margin-top: -65em;
+    
+}
+#cond_table td{
+    border: goldenrod solid 2px;
+}
+#cond_table button{
+    height: 3em;
+    width: 10em;
+    background-color: goldenrod;
+    margin-left: 5em;
+}
+#cond_table p{
+    color:black;
+}
+.firstr{
+    background-color: goldenrod;
+}
+#question{
+    color: goldenrod;
+    margin-left: 15em;
+}
+#loops{
+    margin-top: 35em ;
+    
+}
+#loops p{
+    color:goldenrod;
+}
+#loops table{
+    
+  margin: auto;
+  padding: 0%;
+}
+.c{
+  margin-left: 15em;
+}
+#loops td{
+    padding: 1.5em;
+    border: goldenrod solid 2px;
+    
+    
+}
+#loops span{
+    color: black;
 }
 /* Abbas page css*/
 
