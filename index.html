@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="homeStyle.css">
 </head>
 <body>
+<script src="login.js"></script>
+    
 <div class="main">
     <div class="header">
         <h1>Bahrain Polytechnic Library</h1>
@@ -73,20 +75,6 @@
         <p><a href="#">About us</a> | <a href="#">Our story</a></p>
     </div>
 </div>
-    <!--<script src="login.js"></script>-->
-    <script>
-        function register()
-        {
-            var fName = document.getElementById("fName").value;
-            var lName = document.getElementById("lName").value;
-            var mNumber = document.getElementById("mNumber").value;
-            var email = document.getElementById("email").value;
-
-            localStorage.setItem("first_name", fName);
-            localStorage.setItem("last_name", lName);
-            localStorage.setItem("mobile_number", mNumber);
-            localStorage.setItem("email", email);
-        }
-    </script>
+    
 </body>
 </html> 
