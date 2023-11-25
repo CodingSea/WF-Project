@@ -144,69 +144,6 @@ body
 {
     color: yellow;
 }
-    
-}
-/* fahad css */
-=======
-}
-/* Fahad page css*/
 
-/* Abbas page css*/
-#list{
-    background-color: white;
-    width: 30%;
-    margin-top: -1.9em;
-    height:35em;
-    
-}
-#list ul{
-    color: black;
-    font-size: 2em;
-}
-#top-books{
-    background-color: #3d3d3d;
-    width:70%;
-    float: right;
-    margin-top: -35em;
-    height:35em;
-}
-#top-books h1{
-    font-size: 4em;
-    padding-left: 2em;
-}
-#top-books p{
-  
-    padding-left: 13em;
-}
-#AS{
-    background-color: black;
-    text-align: center;
-    margin-top: -1em;
-}
-#AS a:link{
-    color: white;
-    text-decoration: none;
-    
-}
-/* Abbas page css*/
-
-/* fahad css */
-#AS
-{
-    clear: both;
-    
-}
-
-#AS a
-{
-    color: white;
-    text-decoration: none;
-    
-}
-#AS a:hover
-{
-    color: #e31818;
-    
-}
 /* fahad css */
 
