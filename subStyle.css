@@ -1,0 +1,148 @@
+/* Abbas & Fahad page css*/
+#header2
+{
+    width: 100%;
+    clear: both;
+    background-color: goldenrod;
+    height: 150px;
+    text-align: center;
+}
+
+#header2 h1
+{
+    font-size: 3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    
+}
+
+#header2 img
+{
+    
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.if h1 
+{
+    color:goldenrod;
+    padding: 2em;;
+    text-align: center;
+}
+
+#loops h1 
+{
+    color:goldenrod;
+    padding: 2em;;
+    text-align: center;
+}
+
+.if
+{
+    
+    width: 50%;
+    
+    float: left;
+    
+}
+.if p
+{
+    color: white;
+    margin-left: 7em;;
+    margin-right: 8em;
+}
+#btn button
+{
+    height: 3em;
+    width: 10em;
+    background-color: goldenrod;
+    margin-left: 5em;;
+    margin-top: 4em;
+}
+#generated_code_space
+{
+    clear: both;
+    width: 35%;
+    margin-left: 15em;;
+}
+#generated_code_space p 
+{
+    color: black;
+}
+#cond_table
+{
+    border: goldenrod solid 2px;
+    
+    margin-top: 15em;
+    
+    width: 35%;
+    margin-right: 8em;
+    float: right;
+}
+#cond_table td
+{
+    border: goldenrod solid 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#cond_table .f
+{
+    text-align: center;
+}
+
+#cond_table button
+{
+    height: 3em;
+    width: 10em;
+    background-color: goldenrod;
+}
+#cond_table p
+{
+    color:black;
+}
+.firstr
+{
+    background-color: goldenrod;
+}
+#question
+{
+    color: goldenrod;
+    margin-left: 15em;
+}
+#loops
+{
+    margin-top: 35em ;
+    
+}
+#loops p
+{
+    color:goldenrod;
+}
+#loops table
+{
+    
+  margin: auto;
+  padding: 0%;
+}
+.c
+{
+  margin-left: 15em;
+}
+#loops td
+{
+    padding: 1.5em;
+    border: goldenrod solid 2px;
+}
+#loops span
+{
+    color: black;
+}
+
+#question
+{
+    clear: both;
+}
