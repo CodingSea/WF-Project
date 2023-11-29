@@ -152,3 +152,17 @@
 {
     width: 15em;
 }
+
+.content p
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+iframe
+{    
+    width: 1200px;
+    height: 750px;
+}
