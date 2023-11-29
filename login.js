@@ -1,4 +1,4 @@
-<!--Fahad Page-->
+/* Fahad JS script */
 
 function register()
 {
