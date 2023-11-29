@@ -19,6 +19,15 @@ body
     color: white;
 }
 
+.top h2
+{
+    background-color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5em;
+    float: right;
+}
+
 .header
 {
     width: 100%;

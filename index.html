@@ -5,11 +5,16 @@
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="homeStyle.css">
+
+    <script src="login.js"></script>
 </head>
-<body>
-<script src="login.js"></script>
+<body onload="getUsername()">
     
 <div class="main">
+    <div class="top">
+        <h2 id="username"></h2>
+    </div>
+
     <div class="header">
         <h1>Python Programming Course</h1>
         <img src="images/logo.png">
