@@ -1,4 +1,4 @@
-<!--Fahad Page-->
+/* Fahad JS script */
 
 function register()
 {
@@ -35,5 +35,15 @@ function register()
         localStorage.setItem("email", email);
         
         alert("Your account has been successfully created");
+    }
+}
+
+function getUsername()
+{
+    var username = localStorage.getItem("first_name") + " " + localStorage.getItem("last_name");
+
+    if(username != "null null")
+    {
+        document.getElementById("username").innerHTML = username;
     }
 }

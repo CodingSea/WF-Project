@@ -74,39 +74,22 @@
                 </tr>
                 <tr>
                     <td class="f">Normal If statement</td>
-                    <td id="code"><p>a = 33<br>
-                        b = 200<br>
-                        if b > a:<br>
-                          &emsp; print("b is greater than a")</p></td>
+                    <td id="code" class="middle"><p id="code_text"></p></td>
                     <td><button type="button" onclick="generate2()"> click to generate code </button></td>
                 </tr>
                 <tr>
                     <td class="f">elseif & else</td>
-                    <td id="code2"><p>x = 0<br>
-
-                        if x > 0:<br>
-                        &emsp; print("x is positive.")<br>
-                        elif x < 0:<br>
-                        &emsp; print("x is negative.")<br>
-                        else:<br>
-                        &emsp; print("x is zero.")</p></td>
+                    <td id="code2" class="middle"><p id="code2_text"></p></td>
                         <td><button type="button" onclick="generate3()"> click to generate code </button></td>
                 </tr>
                 <tr>
                     <td class="f">not operator</td>
-                    <td id="code4"><p>has_passed_exam = False<br>
-
-                        if not has_passed_exam:<br>
-                            &emsp;print("You have not passed the exam.")</p></td>
+                    <td id="code4" class="middle"><p id="code4_text"></p></td>
                             <td><button type="button" onclick="generate4()"> click to generate code </button></td>
                 </tr>
                 <tr>
                     <td class="f">and operator</td>
-                    <td id="code5"><p>x = 10<br>
-                        y = 5<br>
-                        
-                        if x > 0 and y > 0:<br>
-                          &emsp;  print("Both x and y are positive.")</p></td>
+                    <td id="code5" class="middle"><p id="code5_text"></p></td>
                           <td><button type="button" onclick="generate5()"> click to generate code </button></td>
                 </tr>
             </table>
@@ -122,45 +105,13 @@
         <div id="btn">
             <button type="button"  onclick="generate()">view answer</button>
         </div>
-        <script type="text/javascript">
-            function generate(){
-           document.getElementById("generated_code_space").style.backgroundColor = "white";
-            }
-           function generate2(){
-           document.getElementById("code").style.backgroundColor = "white";
-            }
-            function generate3(){
-           document.getElementById("code2").style.backgroundColor = "white";
-            }
-            function generate4(){
-           document.getElementById("code4").style.backgroundColor = "white";
-            }
-            function generate5(){
-           document.getElementById("code5").style.backgroundColor = "white";
-            }
-            function generate6(){
-           document.getElementById("code6").style.backgroundColor = "white";
-            }
-            function generate7(){
-           document.getElementById("code7").style.backgroundColor = "white";
-            }
-            function generate8()
-            {
-                document.getElementById("code8").style.backgroundColor = "white";
-            }
-            
-        </script>
+
+
+        <script src="subScript.js"></script>
         
+
         <div id="generated_code_space">
-            <p># set age variable<br>
-                age = int(22)<br>
-                # Check the age and display a message based on the condition <br>
-                if age < 18: <br>
-                    print('You are underage.') <br>
-                elif age >= 18 and age < 65: <br>
-                    print('You are an adult.')  <br>
-                else: <br>
-                    print('You are a senior citizen.')</p>
+            <p id="generated_code_space_text"></p>
       
         </div>
         
@@ -181,11 +132,7 @@
                         (such as a list, tuple, or string) or other iterable objects.<br>
                         It executes a block of code for each item in the sequence.</p>
                         </td>
-                    <td id="code6"><span>fruits = ["apple", "banana", "cherry"]<br>
-
-                        for fruit in fruits:<br>
-                            &emsp; print(fruit)</td></span>
-                            <td><button type="button" onclick="generate6()"> click to generate code </button></td>
+                    <td id="code6"><td><button type="button" onclick="generate6()"> click to generate code </button></td>
                 </tr>
                 <tr>
                     <td><p><b>while Loop:</b><br>
@@ -195,12 +142,7 @@
                         It is useful when you don't know the number of <br>
                         iterations in advance.</p>
                         </td>
-                    <td id="code7"><span> count = 1<br>
-
-                        while count <= 5:<br>
-                            &emsp; print("Count:", count)<br>
-                           &emsp; count += 1</td></span>
-                    <td><button type="button" onclick="generate7()"> click to generate code </button></td>
+                    <td id="code7"><td><button type="button" onclick="generate7()"> click to generate code </button></td>
                 </tr>
                 <tr>
                     <td ><p><b>do-while Loop (emulated in Python):</b><br>
@@ -210,14 +152,7 @@
                          condition that is initially True.<br>
                         The block of code is executed at least once, <br>
                         and then the condition is checked for further iterations.</p></td>
-                    <td id="code8"> <span>count = 1<br>
-
-                        while True:<br>
-                            &emsp; print("Count:", count)<br>
-                            &emsp; count += 1<br>
-                            if count > 5:<br>
-                            &emsp;break</td></span>
-                    <td><button type="button" onclick="generate8()"> click to generate code </button></td>
+                    <td id="code8"><td><button type="button" onclick="generate8()"> click to generate code </button></td>
                 </tr>
             
                 </table>

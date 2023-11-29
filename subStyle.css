@@ -124,9 +124,10 @@
 }
 #loops table
 {
-    
   margin: auto;
   padding: 0%;
+
+  margin-bottom: 3em;
 }
 .c
 {
@@ -145,4 +146,9 @@
 #question
 {
     clear: both;
+}
+
+.middle
+{
+    width: 15em;
 }
