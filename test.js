@@ -18,7 +18,7 @@ var questions = [
     ans: 'Immediate if'
   },
   {
-    question : '3) In JavaScript, what is a block of statement?' ,
+    question : '3) In Python, what is a block of statement?' ,
     a: 'Conditional block',
     b: 'Block that combines a number of statements into a single compound statement',
     c: 'Both conditional block and a single statement',
