@@ -156,7 +156,7 @@
 
 
 /* Fahad page css*/
-.quize
+.quiz
 {
 	max-width: 700px;
 	width: 100%;
@@ -166,7 +166,7 @@
 	border-radius: 10px;
 }
 
-.quize h2
+.quiz h2
 {
     color: black;
 }
@@ -189,7 +189,12 @@ li+li
 	padding-top: 16px;
 }
 
-.btn, .submitBtn
+.quiz label
+{
+    color: black;
+}
+
+.btn, .checkBtn
 {
     margin-top: 2em;
 	padding: 14px 30px;

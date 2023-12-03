@@ -7,7 +7,7 @@
     
     <script src="test.js"></script>
 </head>
-<body>
+<body onload="loadQuestions()">
     <div class="main">
         <div class="header">
             <h1>Bahrain Polytechnic Library</h1>
@@ -30,34 +30,7 @@
             <h1>Python MCQ (Multiple Choice Questions)</h1>
         </div>
 
-        <div class="quize">
-            <div class="question-bar">
-            <h2 class="qestion">1) Which type of Python language is ___</h2>
-            <ul>
-              <li>
-                <input type="radio" name="option" id="a" class="ansList">
-                <label for="a" class="ansa">Object-Oriented</label>
-              </li>
-              <li>
-                <input type="radio" name="option" id="b" class="ansList">
-                <label for="b" class="ansb">Object-Based</label>
-              </li>
-              <li>
-                <input type="radio" name="option" id="c" class="ansList">
-                <label for="c" class="ansc">Assembly-language</label>
-              </li>
-              <li>
-                <input type="radio" name="option" id="d" class="ansList">
-                <label for="d" class="ansd">High-level</label>
-              </li>
-
-            </ul>
-                <div class="footer-button">
-                    <button id="submit" class="submitBtn">Submit</button>
-                </div>
-            </div>
-            
-            
+        <div class="quiz" id="quiz">
             
         </div>
 
