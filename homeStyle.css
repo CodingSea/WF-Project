@@ -1,66 +1,7 @@
-/*Fahad Page*/
-
-.bg
-{
-    margin: 0em;
-    padding: 0em;
-    background: url(images/pic03.jpg) no-repeat;
-    background-size: 100% 100%;
-}
-
-.bg button
-{
-    background: url(images/b.png) no-repeat;
-    background-size: 100% 100%;
-    border: 0px solid black;
-    font-size: 2.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 0.3em;
-    
-    margin: 0.5em;
-    
-    color: white;
-}
-
-/*
-h1
-{
-    margin: 0em;
-    padding-left: 1em;
-}*/
-
-.signUp
-{
-    background-color: gray;
-    margin: 3em;
-    padding: 1em;
-    border-radius: 24px;
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-    width: 30%;
-}
-
-lable
-{
-    display: inline-block;
-    width: 100%;
-}
-
-input
-{
-    width: 100%;
-}
-
-/*Fahad Page*/
-
-
-/*Malik Page*/
+/* Malik & Fahad Page*/
 *{
-padding: 0em;
-margin: 0em; 
+padding: 0;
+margin: 0; 
 font-family: 'poppins', sans-serif;
 box-sizing: border-box;
 }
@@ -73,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/homepagebackground1.jpg);
+    background-image: url(images/homepagebackground1.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -254,6 +195,25 @@ margin-bottom: 90px;
     margin-bottom: 10px;
 }
 
+#content p{
+text-align: justify;
+
+}
+#content table{
+    margin-left: 3em;
+}
+#content td{
+width:35em;
+padding:1em;
+
+}
+#content img{
+    width: 25em;
+    height: 20em;
+}
+.ct{
+    text-align: center;
+}
 .form-comp{
     display: flex;
     width: 100%;
@@ -333,7 +293,53 @@ justify-content: center;
     color: #a5d771;
 }
 
-/*Malik Page*/
+#video{
+    margin-top:-25em;
+    margin-left: 10em;
+    
+}
+iframe{
+    height: 35em;
+    width: 70em;
+    border: #a5d771 solid 1em ;
+}
+h2{
+    padding-left: 6em;
+    padding-top: 3em;;
+}
+#mid-page{
+   border-left: #091B2A solid 5em;;
+}
+#application{
+    padding-left: 3em;
+    padding-top: 3em;
+}
+#application img{
+    width: 25em;
+    height: 20em;
+    border: #a5d771 solid 2px;
+}
+#application table{
+   
+}
+#application span{
+    color: #a5d771;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
