@@ -3,83 +3,69 @@
 <html>
 <head>
     <title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+
     <link rel="stylesheet" type="text/css" href="homeStyle.css">
 
     <script src="login.js"></script>
 </head>
 <body onload="getUsername()">
     
-<div class="main">
-    <div class="top">
-        <h2 id="username"></h2>
-    </div>
-
-    <div class="header">
-        <h1>Python Programming Course</h1>
-        <img src="images/logo.png">
-    </div>
-    <div class="navigation">
-        <table>
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="St1.html">Page 1</a></td>
-                <td><a href="St2.html">Page 2</a></td>
-                <td><a href="St3.html">Page 3</a></td>
-            </tr>
-        </table>
-    </div>
-    <div class="bg">
-        <h1>edfsd</h1>
-        <h1>edfsd</h1>
-        <h1>edfsd</h1>
-        <h1>edfsd</h1>
-        <h1>edfsd</h1>
-        <h1>edfsd</h1>
-        <a href="#signUp"><button type="button">Sign Up</button></a>
-    </div>
-    <div class="wrap">
-        <div>
-            <h1>Page 1</h1>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <button type="button">View</button>
-        </div>
-        <div>
-            <h1>Page 2</h1>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <button type="button">View</button>
-        </div>
-        <div>
-            <h1>Page 3</h1>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <p>sdfw<br>se</p>
-            <button type="button">View</button>
+<div id="header">
+        <div class="container">
+            <nav>
+                <a href="homePage.html"><img src="images/homepagebackground1.jpg" class="logo"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Concepts</a></li>
+                    <li><a href="#">Tests</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">The Making</a></li>
+                    <button class="navbtn"><a href="#signup">Register</a></button>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><Span>Welcome</Span> to </p>
+                <h1>Coding <span>Ninja</span></h1>
+                <p>The <span>pursuit</span> of knowledge</p>
+                <button class="btn"><a href="#signup">Register Now</a></button>
+            </div>
         </div>
     </div>
-
-    <div class="signUp" id="signUp">
-        <h1> Register your details</h1>
-        <lable>First Name: </lable> <input id="fName" type="text">
-        <lable>Last Name: </lable> <input id="lName" type="text">
-        <br>
-        <lable>Mobile Number: </lable> <input id="mNumber" type="text">
-        <lable>E-mail Address: </lable> <input id="email" type="text">
-        <br>
-        <button type="button" onclick="register()">Submit</button>
+    
+    <div id="signupform">
+        
+            <form autocomplete="off" class="form">
+                <a name="signup"><p class="title">Register</p></a>
+                <div class="form-comp">
+                    <label>
+                        <input type="text" required id="fName">
+                        <span>First Name</span>
+                    </label> 
+                    <label>
+                        <input type="text" required id="lName">
+                        <span>Last Name</span>
+                    </label>  
+                </div>
+                <label>
+                        <input type="text" required id="email">
+                        <span>Email</span>
+                </label>    
+                 <label>
+                        <input type="tel" required id="mNumber">
+                        <span>Phone Number</span>
+                </label> 
+                 <label>
+                        <input type="password" required id="ps">
+                        <span>Password</span>
+                </label> 
+                <button class="submit" onclick="register()">Submit</button>
+            </form>
     </div>
-  
-    <div id="AS">
-        <p><a href="story.html">Our storys</a> | <a href="MakingOf.html">Making of</a></p>
+    
+    <div id="rights">
+        <p>© Coding Ninja | All rights reserved</p>
     </div>
-</div>
     
 </body>
 </html> 
