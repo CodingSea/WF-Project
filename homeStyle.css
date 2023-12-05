@@ -1,107 +1,358 @@
-/*Fahad Page*/
-
-.bg
-{
-    margin: 0em;
-    padding: 0em;
-    background: url(images/pic03.jpg) no-repeat;
-    background-size: 100% 100%;
+/* Malik & Fahad Page*/
+*{
+padding: 0;
+margin: 0; 
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
 }
 
-.bg button
-{
-    background: url(images/b.png) no-repeat;
-    background-size: 100% 100%;
-    border: 0px solid black;
-    font-size: 2.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 0.3em;
-    
-    margin: 0.5em;
-    
-    color: white;
+body{
+    background-color: #091B2A;
+    color: #fff;
 }
 
-h1
-{
-    margin: 0em;
-    padding-left: 1em;
-}
-
-.wrap
-{
-    clear: both;
+#header{
     width: 100%;
-    display: table;
+    height: 100vh;
+    background-image: url(images/homepagebackground1.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
-.wrap div
-{
-    width: 25%;
-    float: left;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    border-radius: 2em;
-    
-    margin: 1em;
-    margin-left: 4em;
-    margin-right: 4em;
-    display: table-cell;
+.container{
+    padding: 10px 10%;
 }
 
-.wrap h1
-{
-    text-align: center;
-    padding-left: 0em;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.wrap p
-{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+.logo{
+    width: 140px;
 }
 
-.wrap button
-{
-    background: url(images/b.png) no-repeat;
-    background-size: 100% 100%;
-    width: 90%;
-    border: 0px solid black;
-    font-size: 2.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 0.3em;
-    
-    margin: 0.5em;
-    
-    color: white;
-}
-
-.signUp
-{
-    background-color: gray;
-    margin: 3em;
-    padding: 1em;
-    border-radius: 24px;
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-    width: 30%;
-}
-
-lable
-{
+nav ul li{
     display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #a5d771;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover::after{
     width: 100%;
 }
 
-input
-{
-    width: 100%;
+
+.navbtn{
+background-color: #a5d771;
+    margin-left: 5px;
+    border-radius: 10px; 
+    padding: 5px; width: 160px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    height: 100%;
 }
+
+.navbtn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+
+.navbtn:hover{
+    background: #57703d;
+}
+
+/* .navbtn a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.6s;
+}
+
+.navbtn a:hover::after{
+    width: 100%;
+} */
+
+
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text span{
+    color: #a5d771;
+}
+
+
+.header-text h1{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 60px;
+}
+
+
+.header-text h1 span{
+    color: #a5d771;
+}
+
+.btn{
+background-color: #a5d771;
+    margin-top: 40px;
+    border-radius: 10px; 
+    width: 160px;
+    display: inline-block;
+    list-style: none;
+    width: 200px;
+    height: 70px;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+
+.btn:hover{
+    background: #57703d;
+}
+/* .btn a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.6s;
+}
+
+.btn a:hover::after{
+    width: 100%;
+} */
+
+#signupform{
+clear: both;
+width: 100%;
+background-color: #091B2C;
+clear: both;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+margin: auto;
+border-radius: 15px;
+margin-bottom: 90px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+    max-width: 380px;
+    background:#081726;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 5px 25px black;
+}
+
+.title{
+    font-size: 28px;
+    color: #a5d771;
+    font-weight: 600;
+    letter-spacing: 0,3px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content p{
+text-align: justify;
+
+}
+#content table{
+    margin-left: 3em;
+}
+#content td{
+width:35em;
+padding:1em;
+
+}
+#content img{
+    width: 25em;
+    height: 20em;
+}
+.ct{
+    text-align: center;
+}
+.form-comp{
+    display: flex;
+    width: 100%;
+    grid-row-gap: 6px;
+}
+
+.form label{
+    position: relative;
+}
+
+.form label input{
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #a5d771;
+    background: rgba(255,255,255,0.15);
+}
+
+.form label input+span{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #fff;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0,3s ease;
+}
+
+.form label:input:placeholder-shown+span{
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label input:focus+span,
+.form label input:valid+span{
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label input:valid+span{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+
+.submit{
+    border: none;
+    outline: none;
+    background: #a5d771;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: 0.3px ease;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit:hover{
+    background: #57703d;
+}
+
+#rights{
+clear: both;
+width: 100%;
+display: flex;
+margin: auto;    
+align-items: center;
+justify-content: center;
+}
+
+#rights p{
+    margin-bottom: 20px;
+    color: #a5d771;
+}
+
+#video{
+    margin-top:-25em;
+    margin-left: 10em;
+    
+}
+iframe{
+    height: 35em;
+    width: 70em;
+    border: #a5d771 solid 1em ;
+}
+h2{
+    padding-left: 6em;
+    padding-top: 3em;;
+}
+#mid-page{
+   border-left: #091B2A solid 5em;;
+}
+#application{
+    padding-left: 3em;
+    padding-top: 3em;
+}
+#application img{
+    width: 25em;
+    height: 20em;
+    border: #a5d771 solid 2px;
+}
+#application table{
+   
+}
+#application span{
+    color: #a5d771;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

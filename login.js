@@ -14,20 +14,17 @@ function register()
         alert("First name needs to be 3 letters or more");
         noProblems = Boolean(false);
     }
-    
-    if(lName.length < 3)
+    else if(lName.length < 3)
     {
         alert("Last name needs to be 3 letters or more");
         noProblems = Boolean(false);
     }
-    
-    if(mNumber.length != 8)
+    else if(mNumber.length != 8)
     {
         alert("Mobile number needs to be 8 digits");
         noProblems = Boolean(false);
     }
-
-    if(noProblems == true)
+    else if(noProblems == true)
     {
         localStorage.setItem("first_name", fName);
         localStorage.setItem("last_name", lName);

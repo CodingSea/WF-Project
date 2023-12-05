@@ -1,23 +1,4 @@
 /* Fahad page css*/
-body
-{
-    background-color: lightgray;
-    margin: 0;
-    padding: 0;
-    
-    font-family: calibri;
-}
-
-.main
-{
-    width: 85%;
-    margin-top: 0;
-    padding-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #3d3d3d;
-    color: white;
-}
 
 .top h2
 {
@@ -155,4 +136,65 @@ body
 }
 
 /* fahad css */
+
+
+/*Malik Page*/
+
+h1.header{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    font-family: monospace;
+}
+
+#header {
+    width: 90%;
+    margin: 0em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+img.tablee{
+    width: 80%;
+    height: 50%;
+}
+
+table tr{
+ width: 80%;
+}
+
+table td{
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.textstyle{
+    background-color: #ECF4D6;
+     border-radius: 20px;
+    padding: 40px;
+    border: 40px solid #9AD0C2;
+}
+
+
+ table 
+{
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+td, th 
+{
+    padding: 10px;
+
+}
+
+
+
+/*Malik Page*/
 
