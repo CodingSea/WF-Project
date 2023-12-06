@@ -2,8 +2,6 @@
 
 function register()
 {
-    var noProblems = Boolean(true);
-    
     var fName = document.getElementById("fName").value;
     var lName = document.getElementById("lName").value;
     var mNumber = document.getElementById("mNumber").value;
@@ -12,24 +10,21 @@ function register()
     if(fName.length < 3)
     {
         alert("First name needs to be 3 letters or more");
-        noProblems = Boolean(false);
     }
     else if(lName.length < 3)
     {
         alert("Last name needs to be 3 letters or more");
-        noProblems = Boolean(false);
     }
     else if(mNumber.length != 8)
     {
         alert("Mobile number needs to be 8 digits");
-        noProblems = Boolean(false);
     }
-    else if(noProblems == true)
+    else
     {
-        localStorage.setItem("first_name", fName);
-        localStorage.setItem("last_name", lName);
-        localStorage.setItem("mobile_number", mNumber);
-        localStorage.setItem("email", email);
+        sessionStorage.setItem("first_name", fName);
+        sessionStorage.setItem("last_name", lName);
+        sessionStorage.setItem("mobile_number", mNumber);
+        sessionStorage.setItem("email", email);
         
         alert("Your account has been successfully created");
     }
@@ -37,10 +32,7 @@ function register()
 
 function getUsername()
 {
-    var username = localStorage.getItem("first_name") + " " + localStorage.getItem("last_name");
+    var username = sessionStorage.getItem("first_name") + " " + sessionStorage.getItem("last_name");
 
-    if(username != "null null")
-    {
-        document.getElementById("username").innerHTML = username;
-    }
+    document.getElementById("username").innerHTML = username;
 }
