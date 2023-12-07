@@ -1,46 +1,86 @@
 /* Fahad JS script */
 
 var questions = [
-  {
-    question : '1) Which type of Python language is ___' ,
-    a: 'Object-Oriented',
-    b: 'Object-Based',
-    c: 'Assembly-language',
-    d: 'High-level',
-    ans: 'Object-Oriented'
-  },
-  {
-    question : '2) Which one of the following also known as Conditional Expression:' ,
-    a: 'Alternative to if-else',
-    b: 'Switch statement',
-    c: 'If-then-else statement',
-    d: 'Immediate if',
-    ans: 'Immediate if'
-  },
-  {
-    question : '3) In Python, what is a block of statement?' ,
-    a: 'Conditional block',
-    b: 'Block that combines a number of statements into a single compound statement',
-    c: 'Both conditional block and a single statement',
-    d: 'Block that contains a single statement',
-    ans: 'Block that combines a number of statements into a single compound statement'
-  },
-  {
-    question : '4) Which built-in method removes the last element from an array and returns that element?' ,
-    a: 'last()',
-    b: 'get()',
-    c: 'pop()',
-    d: 'None of the above.',
-    ans: 'pop()'
-  },
-  {
-    question : '5) Which of the following function of Array object removes the first element from an array and returns that element?' ,
-    a: 'reverse()',
-    b: 'shift()',
-    c: 'slice()',
-    d: 'some()',
-    ans: 'shift()'
-  }
+    {
+        question : '1) Which type of Python language is ___' ,
+        a: 'Object-Oriented',
+        b: 'Object-Based',
+        c: 'Assembly-language',
+        d: 'High-level',
+        ans: 'Object-Oriented'
+    },
+    {
+        question : '2) Which one of the following also known as Conditional Expression:' ,
+        a: 'Alternative to if-else',
+        b: 'Switch statement',
+        c: 'If-then-else statement',
+        d: 'Immediate if',
+        ans: 'Immediate if'
+    },
+    {
+        question : '3) In Python, what is a block of statement?' ,
+        a: 'Conditional block',
+        b: 'Block that combines a number of statements into a single compound statement',
+        c: 'Both conditional block and a single statement',
+        d: 'Block that contains a single statement',
+        ans: 'Block that combines a number of statements into a single compound statement'
+    },
+    {
+        question : '4) Which built-in method removes the last element from an array and returns that element?' ,
+        a: 'last()',
+        b: 'get()',
+        c: 'pop()',
+        d: 'None of the above.',
+        ans: 'pop()'
+    },
+    {
+        question : '5) Which of the following function of Array object removes the first element from an array and returns that element?' ,
+        a: 'reverse()',
+        b: 'shift()',
+        c: 'slice()',
+        d: 'some()',
+        ans: 'shift()'
+    },
+    {
+        question : '6) Is Python case sensitive when dealing with identifiers?' ,
+        a: 'no',
+        b: 'yes',
+        c: 'machine dependent',
+        d: 'none of the mentioned',
+        ans: 'yes'
+    },
+    {
+        question : '7) Which of the following is the correct extension of the Python file?' ,
+        a: '.python',
+        b: '.pl',
+        c: '.py',
+        d: '.p',
+        ans: '.py'
+    },
+    {
+        question : '8) Is Python code compiled or interpreted?' ,
+        a: 'Python code is both compiled and interpreted',
+        b: 'Python code is neither compiled nor interpreted',
+        c: 'Python code is only compiled',
+        d: 'Python code is only interpreted',
+        ans: 'Python code is both compiled and interpreted'
+    },
+    {
+        question : '9) All keywords in Python are in _________' ,
+        a: 'Capitalized',
+        b: 'lower case',
+        c: 'UPPER CASE',
+        d: 'None of the mentioned',
+        ans: 'None of the mentioned'
+    },
+    {
+        question : '10) Which keyword is used for function in Python language?' ,
+        a: 'Function',
+        b: 'def',
+        c: 'Fun',
+        d: 'Define',
+        ans: 'def'
+    },
 ];
 
 var btns = [];
@@ -49,6 +89,7 @@ function loadQuestion(qNum)
 {
     document.getElementById("quiz").innerHTML += `<div class="question-bar">
             <h2 class="question">` + questions[qNum].question + `</h2>
+            <br>
             <ul>
               <li>
                 <input type="radio" value="a` + qNum + `" name="option` + qNum + `" id="a` + qNum + `" class="ansList">
