@@ -7,7 +7,7 @@ var questions = [
     b: 'Object-Based',
     c: 'Assembly-language',
     d: 'High-level',
-    ans: 'Object-Based'
+    ans: 'Object-Oriented'
   },
   {
     question : '2) Which one of the following also known as Conditional Expression:' ,
