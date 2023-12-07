@@ -83,6 +83,7 @@ function loadQuestions()
         
         if(i+1 < questions.length)
         {
+            document.getElementById("quiz").innerHTML += `<br>`;
             document.getElementById("quiz").innerHTML += `<hr>`;
         }
     }
