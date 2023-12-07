@@ -1,106 +1,17 @@
 /* Malik & Fahad Page*/
-*{
-padding: 0;
-margin: 0; 
-font-family: 'poppins', sans-serif;
-box-sizing: border-box;
-}
 
 body{
-    background-color: #091B2A;
+    background-color: #081828;
     color: #fff;
 }
 
 #header{
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     background-image: url(images/homepagebackground1.jpeg);
     background-size: cover;
     background-position: center;
 }
-
-.container{
-    padding: 10px 10%;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.logo{
-    width: 140px;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-}
-
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    position:relative;
-}
-
-nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #a5d771;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.6s;
-}
-
-nav ul li a:hover::after{
-    width: 100%;
-}
-
-
-.navbtn{
-background-color: #a5d771;
-    margin-left: 5px;
-    border-radius: 10px; 
-    padding: 5px; width: 160px;
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-    height: 100%;
-}
-
-.navbtn a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    position:relative;
-}
-
-.navbtn:hover{
-    background: #57703d;
-}
-
-/* .navbtn a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.6s;
-}
-
-.navbtn a:hover::after{
-    width: 100%;
-} */
-
-
 
 .header-text{
     margin-top: 20%;
@@ -161,7 +72,7 @@ background-color: #a5d771;
 #signupform{
 clear: both;
 width: 100%;
-background-color: #091B2C;
+background-color: #081828;
 clear: both;
 display: flex;
 align-items: center;
@@ -178,7 +89,7 @@ margin-bottom: 90px;
     flex-direction: column;
     grid-row-gap: 10px;
     max-width: 380px;
-    background:#081726;
+    background:#1d2e3f;
     padding: 20px;
     border-radius: 20px;
     position: relative;
@@ -288,6 +199,8 @@ align-items: center;
 justify-content: center;
 }
 
+/*
+
 #rights p{
     margin-bottom: 20px;
     color: #a5d771;
@@ -327,16 +240,61 @@ h2{
     text-align: justify;
 }
 
+*/
 
+#pages{
+    padding: 30px 0;
+}
 
+.pages-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
 
+.pages-list div{
+    background: #1d2e3f;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 12px;
+    transition: background 0.5s, transform 0.5s;
+}
 
+.pages-list div i{
+   font-size: 50px;
+    margin-bottom: 30px;
+}
 
+.pages-list div h2{
+   font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #a5d771;
+}
 
+.pages-list div p{
+   font-size: 15px;
+    margin-bottom: 15px;
+}
 
+.pages-list div a{
+   text-decoration: none;
+    color: #a5d771;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
 
+.pages-list div:hover{
+   background: #32475b;
+    transform: translateY(-10px);
+}
 
-
+.pages-list div a:hover{
+   color:#57703d;
+}
 
 
 
