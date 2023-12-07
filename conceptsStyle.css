@@ -1,0 +1,38 @@
+#rights p{
+    margin-bottom: 20px;
+    color: #a5d771;
+}
+
+#video{
+    margin-top:3em;
+    margin-left: 10em;
+    
+}
+iframe{
+    height: 35em;
+    width: 70em;
+    border: #a5d771 solid 1em ;
+}
+h2{
+    padding-left: 6em;
+    padding-top: 3em;;
+}
+#mid-page{
+   border-left: #091B2A solid 5em;;
+}
+#application{
+    padding-left: 3em;
+    padding-top: 3em;
+}
+#application img{
+    width: 25em;
+    height: 20em;
+    border: #a5d771 solid 2px;
+}
+#application table{
+   
+}
+#application span{
+    color: #a5d771;
+    text-align: justify;
+}
