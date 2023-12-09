@@ -3,7 +3,7 @@
 {
     width: 100%;
     clear: both;
-    background-color: goldenrod;
+    background-color: #49a298;
     height: 150px;
     text-align: center;
 }
@@ -28,14 +28,14 @@
 
 .if h1 
 {
-    color:goldenrod;
+    color:#B0E792;
     padding: 2em;;
     text-align: center;
 }
 
 #loops h1 
 {
-    color:goldenrod;
+    color:#B0E792;
     padding: 2em;;
     text-align: center;
 }
@@ -58,7 +58,7 @@
 {
     height: 3em;
     width: 10em;
-    background-color: goldenrod;
+    background-color: #49a298;
     margin-left: 5em;;
     margin-top: 4em;
 }
@@ -74,7 +74,7 @@
 }
 #cond_table
 {
-    border: goldenrod solid 2px;
+    border: #49a298 solid 2px;
     
     margin-top: 15em;
     
@@ -84,7 +84,7 @@
 }
 #cond_table td
 {
-    border: goldenrod solid 2px;
+    border: #49a298 solid 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
@@ -98,7 +98,7 @@
 {
     height: 3em;
     width: 10em;
-    background-color: goldenrod;
+    background-color: #B0E792;
 }
 #cond_table p
 {
@@ -106,11 +106,11 @@
 }
 .firstr
 {
-    background-color: goldenrod;
+    background-color: #B0E792;
 }
 #question
 {
-    color: goldenrod;
+    color: #B0E792;
     margin-left: 15em;
 }
 #loops
@@ -120,7 +120,7 @@
 }
 #loops p
 {
-    color:goldenrod;
+    color:#B0E792;
 }
 #loops table
 {
@@ -136,7 +136,7 @@
 #loops td
 {
     padding: 1.5em;
-    border: goldenrod solid 2px;
+    border: #49a298 solid 2px;
 }
 #loops span
 {
