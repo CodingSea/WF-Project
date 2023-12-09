@@ -174,9 +174,10 @@ p{
     font-size: 20px;
 }
 
-.textstyle{
+.textstyle
+{
     background-color: #ECF4D6;
-     border-radius: 20px;
+    border-radius: 20px;
     padding: 40px;
     border: 40px solid #9AD0C2;
 }

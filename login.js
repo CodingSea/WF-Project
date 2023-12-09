@@ -32,7 +32,12 @@ function register()
 
 function getUsername()
 {
-    var username = sessionStorage.getItem("first_name") + " " + sessionStorage.getItem("last_name");
+    if(sessionStorage.hasOwnProperty("first_name") && sessionStorage.hasOwnProperty("last_name"))
+    {
+        var username = sessionStorage.getItem("first_name") + " " + sessionStorage.getItem("last_name");
 
-    document.getElementById("username").innerHTML = username;
+        document.getElementById("username").innerHTML = username;
+    }
+    
+    
 }
