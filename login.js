@@ -6,6 +6,7 @@ function register()
     var lName = document.getElementById("lName").value;
     var mNumber = document.getElementById("mNumber").value;
     var email = document.getElementById("email").value;
+    var ps = document.getElementById("ps").value;
 
     if(fName.length < 3)
     {
@@ -19,12 +20,17 @@ function register()
     {
         alert("Mobile number needs to be 8 digits");
     }
+    else if(ps.length == 0)
+    {
+        alert("There must be a Password");
+    }
     else
     {
         sessionStorage.setItem("first_name", fName);
         sessionStorage.setItem("last_name", lName);
         sessionStorage.setItem("mobile_number", mNumber);
         sessionStorage.setItem("email", email);
+        sessionStorage.setItem("ps", ps);
         
         alert("Your account has been successfully created");
     }
