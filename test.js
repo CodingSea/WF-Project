@@ -84,6 +84,7 @@ var questions = [
 ];
 
 var btns = [];
+var grade = 0;
 
 function loadQuestion(qNum)
 {
@@ -129,6 +130,9 @@ function loadQuestions()
         }
     }
     
+    document.getElementById("quiz").innerHTML += `<br><hr><br>`;
+    document.getElementById("quiz").innerHTML += `<h2 id="grade">Your Result is `+ grade + `/` + questions.length + `</h2>`;
+    
     for(let i = 0; i < questions.length; i++)
     {
         btns.push(i.toString());
@@ -138,6 +142,7 @@ function loadQuestions()
         btns[i].onclick  = function()
         {
             var radioButtons = document.getElementsByName("option" + i);
+            var selectedNum = Boolean(false);
             
             for (let j = 0; j < radioButtons.length; j++) 
             {
@@ -151,18 +156,37 @@ function loadQuestions()
                     if(questions[i].ans == labelValue)
                     {
                         label.style.color = "limegreen";
+                        updateGrade();
                     }
                     else if(questions[i].ans != labelValue)
                     {
                         label.style.color = "red";
                     }
                     
+                    selectedNum = true;
                 }
-                
-                radioButtons[j].disabled = true;
             }
             
+            for (let j = 0; j < radioButtons.length; j++) 
+            {
+                if(selectedNum == true)
+                {
+                    radioButtons[j].disabled = true;
+                }
+            }
             
         }
     }
+    
+    
+    
 }
+
+
+function updateGrade()
+{
+    grade++;
+    
+    document.getElementById("grade").innerHTML = `Your Result is `+ grade + `/` + questions.length +``;
+}
+
