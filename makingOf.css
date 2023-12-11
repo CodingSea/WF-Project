@@ -48,17 +48,26 @@
     object-fit: cover;
 }
 
+.images
+{
+    width: 70%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .images table
 {
     margin-left: auto;
     margin-right: auto;
     
-    
+    width: 100%;
 }
 
 .image
 {
     border: 0.5em solid #1d2e3f;
+    width: 100%;
 }
 
 .section
