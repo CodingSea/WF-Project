@@ -4,23 +4,92 @@
 <head>
     <title>Coding Ninja | Making Of</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="makingOf.css">
     
     <script src="login.js"></script>
+    <script src="makingOfScript.js"></script>
 </head>
 <body onload="getUsername()">
-   <div class="container">
-            <nav>
-                <a href="home.html"><img src="images/homepagebackground1.jpeg" class="logo"></a>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="concepts.html">Concepts</a></li>
-                    <li><a href="Coding.html">Coding</a></li>
-                    <li><a href="Test.html">Tests</a></li>
-                    <li><a href="story.html">Our Story</a></li>
-                    <li><a href="MakingOf.html">The Making</a></li>
-                    <li><p id="username"></p></li>
-                </ul>
-            </nav>
-        </div>
+    <div class="container">
+        <nav>
+            <a href="home.html"><img src="images/homepagebackground1.jpeg" class="logo"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="concepts.html">Concepts</a></li>
+                <li><a href="Coding.html">Coding</a></li>
+                <li><a href="Test.html">Tests</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="MakingOf.html">The Making</a></li>
+                <li><p id="username"></p></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="images">
+        <table>
+            <tr>
+                <td id="image">
+                    <img class="image" src="images/MockUp/2.png" width="1200em" height="550em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="back-images">
+                        <div class="back-chang" onclick="background1()"><img src="images/MockUp/2.png"></div>
+                        <div class="back-chang" onclick="background2()"><img src="images/MockUp/3.png"></div>
+                        <div class="back-chang" onclick="background3()"><img src="images/MockUp/4.png"></div>
+                        <div class="back-chang" onclick="background4()"><img src="images/MockUp/5.png"></div>
+                        <div class="back-chang" onclick="background5()"><img src="images/MockUp/9.png"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <table>
+            <tr>
+                <td>
+                    <h2>Justification: Layout and Design</h2>
+                    <p>For the design, we thought that a modern and easy-to-navigate minimalist look was needed, and we used divs to separate each section of the pages from paragraphs to images and to tables and used them in an effective way for structuring the site in a way that it can be scalable so it can fit any screen size. Additionally, we tried to make use of repeating sections so we could keep the site consistent. Besides that, we made sure that the site is easy to use, consistent, and very pleasing to the eye.</p>
+                </td>
+                
+                <td>
+                    <img class="side-image" src="images/MockUp/layout.png">
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <table>
+            <tr>
+                <td>
+                    <h2>Justification: Colors</h2>
+                    <p>Since our topic is about technology and how it will change our world, we tried to find a color palette that suits the topic. In our research, we found that that that most programmers prefer dark theme in much higher rate, so we decided to. Additionally, we found that they use other colors like green because it is it fits the theme and is readable and it represents intelligence and hacking ability like in the movies, which makes them instantly establish credibility and authority with the user. So, we tried to make our color palette a green based one. </p>
+                </td>
+                
+                <td>
+                    <img class="side-image2" src="images/MockUp/colors.png">
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <table>
+            <tr>
+                <td>
+                    <h2>Justification: Code</h2>
+                    <p>We started by making the project by creating the required files we need to have, which was 6 HTML files and one folder for images, then we decided to make a shared CSS file that will have the base style elements for the navigation bar and logo and a personalized CSS file for each page. In addition, we created some JavaScript files, when necessary, one file was for registration and getting the username, the second was for the test which loads has question and checks if the answers are correct, and the final is to help with the makingOf page to improve it a bit.</p>
+                </td>
+                
+                <td>
+                    <img class="side-image" src="images/MockUp/code.png">
+                </td>
+            </tr>
+        </table>
+    </div>
+    
 </body>
 </html> 
