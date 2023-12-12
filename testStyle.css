@@ -1,23 +1,13 @@
-.main
-{
-    background: url(images/d1.jpg);
-    background-size: 100% 20%;
-}
-
 .quiz
 {
-	max-width: 700px;
-	width: 100%;
+	width: 80%;
 	margin: 50px auto;
 	padding: 50px;
-	background: #49a298;
+	background: #1d2e3f;
 	border-radius: 10px;
+    color: white;
 }
 
-.quiz h2
-{
-    color: black;
-}
 
 #quiz ul
 {
@@ -27,7 +17,7 @@
 	border: 1px solid #efeeff;
 	padding: 20px;
 	border-radius: 10px;
-	background: #fcfcff;
+	background: #1d2e3f;
 }
 
 .quiz li+li
@@ -39,7 +29,7 @@
 
 .quiz label
 {
-    color: black;
+    color: white;
 }
 
 .btn, .checkBtn
