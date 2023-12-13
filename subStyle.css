@@ -87,6 +87,7 @@
     border: #49a298 solid 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    width: auto;
 }
 
 #cond_table .f
@@ -100,14 +101,17 @@
     width: 10em;
     background-color: #B0E792;
 }
-#cond_table p
+
+p
 {
-    color:black;
+    color:white;
 }
-.firstr
+
+th
 {
     background-color: #B0E792;
 }
+
 #question
 {
     color: #B0E792;
@@ -118,12 +122,20 @@
 {
     color:#B0E792;
 }
+
+#loops
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 #loops table
 {
-  margin: auto;
-  padding: 0%;
+    margin: auto;
+    padding: 0%;
 
-  margin-bottom: 3em;
+    margin-bottom: 3em;
+    border: #49a298 solid 2px;
 }
 
 #loops td
@@ -131,6 +143,7 @@
     padding: 1.5em;
     border: #49a298 solid 2px;
 }
+
 #loops span
 {
     color: black;
@@ -144,62 +157,10 @@
 .middle
 {
     width: 15em;
+    /*background-color: #1d2e3f;*/
 }
 
-
-
-/* Fahad page css*/
-.quiz
+td
 {
-	max-width: 700px;
-	width: 100%;
-	margin: 50px auto;
-	padding: 50px;
-	background: #ffffff;
-	border-radius: 10px;
+    background-color: #1d2e3f;
 }
-
-.quiz h2
-{
-    color: black;
-}
-
-#quiz ul
-{
-	margin: 0;
-	list-style: none;
-	color: #7c79c7;
-	border: 1px solid #efeeff;
-	padding: 20px;
-	border-radius: 10px;
-	background: #fcfcff;
-}
-
-.quiz li+li
-{
-	margin-top: 16px;
-	border-top: 1px solid #efeeff;
-	padding-top: 16px;
-}
-
-.quiz label
-{
-    color: black;
-}
-
-.btn, .checkBtn
-{
-    margin-top: 2em;
-	padding: 14px 30px;
-	background-color: black;
-	color: white;
-	border: 0;
-	cursor: pointer;
-	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: bold;
-	letter-spacing: 1px;
-	border-radius: 10px;
-}
-
-/* Fahad page css*/

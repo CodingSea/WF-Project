@@ -2,7 +2,7 @@
 
 function generate()
 {
-    document.getElementById("generated_code_space").style.backgroundColor = "white";
+    document.getElementById("generated_code_space").style.backgroundColor = "#1d2e3f";
 
     var code = `# set age variable<br>
     age = int(22)<br>
@@ -13,24 +13,22 @@ function generate()
         print('You are an adult.')  <br>
     else: <br>
         print('You are a senior citizen.')`;
-    document.getElementById("generated_code_space_text").innerHTML += code;
+    document.getElementById("generated_code_space_text").innerHTML = code;
+    document.getElementById("generated_code_space_text").style.color = "white";
 }
 
 function generate2()
 {
-    document.getElementById("code").style.backgroundColor = "white";
-
     var code = `a = 33<br>
     b = 200<br>
     if b > a:<br>
       &emsp; print("b is greater than a")`;
-    document.getElementById("code_text").innerHTML += code;
+    document.getElementById("code_text").innerHTML = code;
+    document.getElementById("code_text").style.color = "white";
 }
 
 function generate3()
 {
-    document.getElementById("code2").style.backgroundColor = "white";
-
     var code = `x = 0<br>
 
     if x > 0:<br>
@@ -39,30 +37,32 @@ function generate3()
     &emsp; print("x is negative.")<br>
     else:<br>
     &emsp; print("x is zero.")`;
-    document.getElementById("code2_text").innerHTML += code;
+    document.getElementById("code2_text").innerHTML = code;
+    document.getElementById("code2_text").style.color = "white";
 }
 
 function generate4()
 {
-    document.getElementById("code4").style.backgroundColor = "white";
 
     var code = `has_passed_exam = False<br>
 
                         if not has_passed_exam:<br>
                             &emsp;print("You have not passed the exam.")`;
-    document.getElementById("code4_text").innerHTML += code;
+    document.getElementById("code4_text").innerHTML = code;
+    document.getElementById("code4_text").style.color = "white";
 }
+
 
 function generate5()
 {
-    document.getElementById("code5").style.backgroundColor = "white";
 
     var code = `x = 10<br>
     y = 5<br>
     
     if x > 0 and y > 0:<br>
       &emsp;  print("Both x and y are positive.")`;
-    document.getElementById("code5_text").innerHTML += code;
+    document.getElementById("code5_text").innerHTML = code;
+    document.getElementById("code5_text").style.color = "white";
 }
 
 
@@ -75,7 +75,8 @@ function generate6()
 
     for fruit in fruits:<br>
         &emsp; print(fruit)</td></span>`;
-    document.getElementById("code6").innerHTML += code;
+    document.getElementById("code6").innerHTML = code;
+    document.getElementById("code6").style.color = "white";
 }
 
 function generate7()
@@ -87,7 +88,7 @@ function generate7()
     while count <= 5:<br>
         &emsp; print("Count:", count)<br>
        &emsp; count += 1</td></span>`;
-    document.getElementById("code7").innerHTML += code;
+    document.getElementById("code7").innerHTML = code;
 }
 
 function generate8()
@@ -101,6 +102,6 @@ function generate8()
         &emsp; count += 1<br>
         if count > 5:<br>
         &emsp;break</td></span>`;
-    document.getElementById("code8").innerHTML += code;
+    document.getElementById("code8").innerHTML = code;
 }
 
