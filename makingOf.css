@@ -7,7 +7,7 @@
 
 .back-images
 {
-    width: 20em;
+    width: 25em;
     height: 5em;
     background: #1d2e3f;
     border-radius: 22px;
@@ -50,7 +50,6 @@
 
 .images
 {
-    width: 70%;
     
     margin-left: auto;
     margin-right: auto;
@@ -60,14 +59,15 @@
 {
     margin-left: auto;
     margin-right: auto;
-    
-    width: 100%;
 }
 
 .image
 {
     border: 0.5em solid #1d2e3f;
-    width: 100%;
+    width: 60em;
+    height: 33em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section
