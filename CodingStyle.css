@@ -1,0 +1,205 @@
+#rights{
+clear: both;
+width: 100%;
+display: flex;
+margin: auto;    
+align-items: center;
+justify-content: center;
+}
+
+.header{ 
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 70px;
+    font-size: 44px;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.sub-header{
+     text-align: center;
+    padding-bottom: 70px;
+    font-size: 34px;
+    color: #B0E792;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+b{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.if
+{
+    width: 50%;
+    float: left;   
+}
+
+.if p
+{
+     font-size: 18px;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
+    margin-left: 7em;;
+    margin-right: 8em;
+}
+
+.if h1 
+{
+    color:#B0E792;
+    padding: 2em;;
+    text-align: center;
+}
+
+#cond_table
+{
+    border: #49a298 solid 2px;
+    
+    margin-top: 15em;
+    
+    width: 40%;
+    margin-right: 8em;
+    float: right;
+}
+#cond_table td
+{
+    border: #49a298 solid 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#cond_table .f
+{
+    text-align: center;
+}
+
+.firstr
+{
+    background-color: #B0E792;
+}
+
+#cond_table button
+{
+    height: 3em;
+    width: 10em;
+    background-color: #B0E792;
+}
+#cond_table p
+{
+    color:black;
+}
+
+
+#question
+{ 
+    margin-left: 10em;
+}
+
+#question p{
+    color: #B0E792;
+      font-size: 16px;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
+    padding-top: 20px;
+}
+
+.btn{
+background-color: #a5d771;
+    margin-top: 40px;
+    border-radius: 10px; 
+    display: inline-block;
+    list-style: none;
+    width: 180px;
+    height: 55px;
+    font-size: 13px;
+}
+
+.btn:hover{
+    background: #57703d;
+}
+
+#generated_code_space
+{
+    border-radius: 10px;
+    clear: both;
+    width: 35%;
+    margin-left: 15em;
+    margin-top: 3em;
+    
+}
+#generated_code_space p 
+{
+    color: black;
+     font-size: 16px;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
+    padding: 15px;
+}
+
+#loops
+{
+    
+}
+#loops p
+{
+    font-size: 18px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
+    color: #fff;
+}
+#loops table
+{
+  margin: auto;
+  padding: 0%;
+  margin-bottom: 3em;
+}
+
+#loops td
+{
+    padding: 1.5em;
+    border: #49a298 solid 2px;
+}
+#loops span
+{
+    color: black;
+}
+
+.c
+{
+ font-size: 18px;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
+    margin-left: 7em;;
+    margin-right: 8em;
+    color: #fff;
+}
+
+table 
+{
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+td, th 
+{
+    padding: 10px;
+
+}
+
+table tr{
+ width: 80%;
+}
+
+table td{
+    width: 50%;
+}
+
+
+
+
+
+
+

@@ -3,8 +3,12 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="homeStyle.css">
     <link rel="stylesheet" type="text/css" href="conceptsStyle.css">
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    
     <title>Coding Ninja | Programming</title>
     
     <script src="login.js"></script>
@@ -26,67 +30,92 @@
             </nav>
         </div>
     
-                <h2>What is programming?</h2>
+                <h1 class="header">What is programming?</h1>
+    
                 <div id="video"><iframe src="https://www.youtube.com/embed/zOjov-2OZ0E" frameborder="0"></iframe></div>
-                <br>
-                <div id="mid-page">
-                    <h1>What is a programming language and which are the different programming languages?</h1>
-                    <br>
-                    <br>
-                    <p>A programming language is a formal language that provides a set of instructions or commands 
+                
+    
+        <div id="pages">
+        <div class="container">
+            <h2>What is a programming language and what are the different programming languages?</h2>
+            <p>A programming language is a formal language that provides a set of instructions or commands 
                         that can be used to create computer programs. It serves as a means of communication between 
                         humans and computers, allowing programmers to write code that the computer can understand and execute.
 
                         There are numerous programming languages available, each with its own syntax, semantics, and areas 
                         of application. Some of the most popular and widely used programming languages include:</p>
-                        <br>
-                        <ul>
-                            <li><b>Python:</b> Python is known for its simplicity and readability. 
+            <div class="pages-list">
+                <div>
+                    <img src="images/3d-fluency-python.png" class="pics">
+                    <h2>Python</h2>
+                    <p>Python is known for its simplicity and readability. 
                                 It emphasizes code readability and has a large standard library, 
                                 making it versatile for various applications, including web development,
-                                 data analysis, and artificial intelligence.</li>
-                                 <li><b>Java: </b>Java is a general-purpose language that is widely used for 
-                                    building enterprise-level applications. It is platform-independent 
-                                    and known for its "write once, run anywhere" approach. Java is commonly used in Android app development and backend server programming.</li>
-                                 <li><b>JavaScript:</b> JavaScript is primarily used for front-end web development. It enables interactive and dynamic website elements,
-                                     making it an essential language for web browsers. It is also used on the server-side 
-                                     (Node.js) and in mobile app development.</li>
-                        </ul>
-
+                                 data analysis, and artificial intelligence.</p>
                 </div>
-                <div id="application">
-                    <h1>Real life application of Programming </h1>
-                    <table>
-                        <tr>
-                            <td><img src="images/web.jpg">  </td>
-                            <td>Web Development<br><br><span>Programming is essential for creating websites and web applications 
+                 <div>
+                     <img src="images/3d-fluency-java.png" class="pics">
+                    <h2>Java</h2>
+                    <p>Java is a general-purpose language that is widely used for 
+                                    building enterprise-level applications. It is platform-independent 
+                                    and known for its "write once, run anywhere" approach. Java is commonly used in Android app development and backend server programming.</p>
+                </div>
+                 <div>
+                     <img src="images/icons8-javascript-48.png" class="pics">
+                    <h2>JavaScript</h2>
+                    <p>JavaScript is primarily used for front-end web development. It enables interactive and dynamic website elements,
+                                     making it an essential language for web browsers. It is also used on the server-side 
+                                     (Node.js) and in mobile app development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="application">
+        <div class="container">
+            <h2>Real life application of Programming</h2>
+            <div class="application-list">
+                <div>
+                    <img src="images/outline-mobile-app-development-and-coding.png" class="pics">
+                    <h2>Web Development</h2>
+                    <p>Programming is essential for creating websites and web applications 
                                 that we interact with daily, including e-commerce platforms, social media 
                                 <br>sites, and online services. Front-End Development: Programming is used to create the front-end or client-side of websites. Programmers use HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript to build the user interface, define the structure, style the elements, and add interactivity to web pages.
 
-                                Back-End Development: Programming is essential for back-end or server-side development, which involves handling the logic, data storage, and processing of web applications. Programmers use languages such as Python, Java, PHP, Ruby, and JavaScript (with Node.js) to build server-side scripts, APIs (Application Programming Interfaces), and database interactions.</td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/cyber-security.jpg">  </td>
-                            <td align="justify">Cybersecurity<br><br><span>Programming is employed to develop secure systems, encryption algorithms, and defensive 
+                                Back-End Development: Programming is essential for back-end or server-side development, which involves handling the logic, data storage, and processing of web applications. Programmers use languages such as Python, Java, PHP, Ruby, and JavaScript (with Node.js) to build server-side scripts, APIs (Application Programming Interfaces), and database interactions.</p>
+                </div>
+                 <div>
+                     <img src="images/outline-cybersecurity-and-data-safety-in-cloud-storage.png" class="pics">
+                    <h2>Cybersecurity</h2>
+                    <p>Programming is employed to develop secure systems, encryption algorithms, and defensive 
                                 mechanisms<br> to protect against cyber threats and ensure data privacy. Secure Software Development: Programming <br>
                                 is used to develop secure software applications, ensuring that code is written with security in mind. Secure <br>
                                 coding practices help prevent common vulnerabilities such as buffer overflows, injection attacks, and insecure <br>
                                 authentication. Vulnerability Assessment and Penetration Testing: Programming is employed to develop tools <br>and 
                                 scripts for vulnerability assessment and penetration testing. These tools help identify security <br>weaknesses in 
-                                systems and networks, allowing organizations to proactively address and mitigate potential risks.</span></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/ai.webp">  </td>
-                            <td>Artificial Intelligence (AI) and Machine Learning (ML)<br><br><span>Programming is critical for developing AI 
+                                systems and networks, allowing organizations to proactively address and mitigate potential risks.</p>
+                </div>
+                 <div>
+                     <img src="images/outline-lettering-ai-with-robot-gears-and-brain-text.png" class="pics">
+                    <h2>Artificial Intelligence (AI) and Machine Learning (ML)</h2>
+                    <p>Programming is critical for developing AI 
                                 and ML algorithms and models that power intelligent systems, such as voice assistants, recommendation<br> engines, 
                                 and autonomous vehicles. Machine Learning Algorithms: Programming is essential for implementing machine learning algorithms that enable AI systems to learn from data and make predictions or decisions. Programmers write code to train models, define network architectures, and optimize algorithms for tasks such as image recognition, natural language processing, and recommendation systems.
 
-                                Data Preprocessing and Feature Engineering: Programming is used to clean, preprocess, and transform raw data into a suitable format for AI algorithms. Programmers write code to handle missing values, normalize data, perform feature selection, and engineer new features that improve the performance of AI models.</span></td>
-                        </tr>
-                    </table>
+                                Data Preprocessing and Feature Engineering: Programming is used to clean, preprocess, and transform raw data into a suitable format for AI algorithms. Programmers write code to handle missing values, normalize data, perform feature selection, and engineer new features that improve the performance of AI models.</p>
                 </div>
-                <div id="rights">
-                    <p>© Coding Ninja | All rights reserved</p>
-                </div>
-            </body>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="rights">
+        <p>© Coding Ninja | All rights reserved</p>
+    </div>
+    
+    
+     </body>
 </html>
