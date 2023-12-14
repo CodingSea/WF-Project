@@ -69,31 +69,27 @@ function generate5()
 /* LOOPS */
 function generate6()
 {
-    document.getElementById("code6").style.backgroundColor = "white";
-    
     var code = `<span>fruits = ["apple", "banana", "cherry"]<br>
 
     for fruit in fruits:<br>
-        &emsp; print(fruit)</td></span>`;
+        &emsp; print(fruit)</span>`;
     document.getElementById("code6").innerHTML = code;
     document.getElementById("code6").style.color = "white";
 }
 
 function generate7()
 {
-    document.getElementById("code7").style.backgroundColor = "white";
 
     var code = `<span> count = 1<br>
 
     while count <= 5:<br>
         &emsp; print("Count:", count)<br>
-       &emsp; count += 1</td></span>`;
+       &emsp; count += 1</span>`;
     document.getElementById("code7").innerHTML = code;
 }
 
 function generate8()
 {
-    document.getElementById("code8").style.backgroundColor = "white";
 
     var code = `<span>count = 1<br>
 
@@ -101,7 +97,7 @@ function generate8()
         &emsp; print("Count:", count)<br>
         &emsp; count += 1<br>
         if count > 5:<br>
-        &emsp;break</td></span>`;
+        &emsp;break</span>`;
     document.getElementById("code8").innerHTML = code;
 }
 

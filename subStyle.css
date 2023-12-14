@@ -1,4 +1,9 @@
 /* Abbas & Fahad page css*/
+body
+{
+    color: white;
+}
+
 #header2
 {
     width: 100%;
@@ -70,7 +75,7 @@
 }
 #generated_code_space p 
 {
-    color: black;
+    color: white;
 }
 #cond_table
 {
@@ -146,7 +151,7 @@ th
 
 #loops span
 {
-    color: black;
+    color: white;
 }
 
 #question
