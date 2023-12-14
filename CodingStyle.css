@@ -54,9 +54,7 @@ b{
 #cond_table
 {
     border: #49a298 solid 2px;
-    
     margin-top: 15em;
-    
     width: 40%;
     margin-right: 8em;
     float: right;
@@ -73,25 +71,30 @@ b{
     text-align: center;
 }
 
-.firstr
+th
 {
     background-color: #B0E792;
 }
 
-button
+#cond_table button
 {
-    height: 3em;
-    width: 10em;
-    
-    background-color: #a5d771;
-    margin-top: 40px;
-    border-radius: 10px; 
-    display: inline-block;
-    list-style: none;
-    width: 180px;
-    height: 55px;
-    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #B0E792;
 }
+
+
+#loops button
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #B0E792;
+}
+
 #cond_table p
 {
     color:black;
@@ -112,9 +115,8 @@ button
     padding-top: 20px;
 }
 
-.btn
-{
-    background-color: #a5d771;
+.btn{
+background-color: #a5d771;
     margin-top: 40px;
     border-radius: 10px; 
     display: inline-block;
@@ -172,7 +174,7 @@ button
 }
 #loops span
 {
-    color: white;
+    color: black;
 }
 
 .c
@@ -195,21 +197,113 @@ table
 
 td, th 
 {
-    padding: 10px;
-
+    padding: 1em;
 }
 
-table tr{
- width: 80%;
+table tr
+{
+    width: 80%;
 }
 
-table td{
-    width: 50%;
+table td
+{
+    width: 40%;
 }
 
 
 
 
+#generated_code_space
+{
+    clear: both;
+    width: 35%;
+    margin-left: 15em;;
+}
+#generated_code_space p 
+{
+    color: black;
+}
+
+#cond_table td
+{
+    border: #49a298 solid 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#cond_table .f
+{
+    text-align: center;
+}
 
 
+p
+{
+    color:white;
+}
+
+th
+{
+    background-color: #B0E792;
+}
+
+#question
+{
+    color: #B0E792;
+    margin-left: 15em;
+}
+
+
+
+#loops
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#loops table
+{
+    margin: auto;
+    padding: 0%;
+
+    margin-bottom: 3em;
+    border: #49a298 solid 2px;
+}
+
+#loops td
+{
+    padding: 1.5em;
+    border: #49a298 solid 2px;
+}
+
+#loops span
+{
+    color: white;
+}
+
+#question
+{
+    clear: both;
+}
+
+#cond_table td
+{
+    width: 30%;
+    text-align: center;
+}
+
+td
+{
+    background-color: #1d2e3f;
+}
+
+.greenBtn
+{
+    background-color: #B0E792;
+}
+
+#last
+{
+    width: 20%;
+}
 

@@ -8,6 +8,15 @@
     color: white;
 }
 
+#rights{
+clear: both;
+width: 100%;
+display: flex;
+margin: auto;    
+align-items: center;
+justify-content: center;
+}
+
 
 #quiz ul
 {
@@ -45,4 +54,12 @@
 	font-weight: bold;
 	letter-spacing: 1px;
 	border-radius: 10px;
+}
+
+.header12{ 
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 70px;
+    font-size: 44px;
+    font-family: 'Silkscreen', sans-serif;
 }

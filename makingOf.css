@@ -5,6 +5,15 @@
 
 }
 
+#rights{
+clear: both;
+width: 100%;
+display: flex;
+margin: auto;    
+align-items: center;
+justify-content: center;
+}
+
 .back-images
 {
     width: 25em;

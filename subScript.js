@@ -72,9 +72,8 @@ function generate6()
     var code = `<span>fruits = ["apple", "banana", "cherry"]<br>
 
     for fruit in fruits:<br>
-        &emsp; print(fruit)</span>`;
+        &emsp; print(fruit)</td></span>`;
     document.getElementById("code6").innerHTML = code;
-    document.getElementById("code6").style.color = "white";
 }
 
 function generate7()
@@ -84,7 +83,7 @@ function generate7()
 
     while count <= 5:<br>
         &emsp; print("Count:", count)<br>
-       &emsp; count += 1</span>`;
+       &emsp; count += 1</td></span>`;
     document.getElementById("code7").innerHTML = code;
 }
 
@@ -97,7 +96,7 @@ function generate8()
         &emsp; print("Count:", count)<br>
         &emsp; count += 1<br>
         if count > 5:<br>
-        &emsp;break</span>`;
+        &emsp;break</td></span>`;
     document.getElementById("code8").innerHTML = code;
 }
 
