@@ -224,13 +224,6 @@ table td
     color: black;
 }
 
-#cond_table td
-{
-    border: #49a298 solid 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
 #cond_table .f
 {
     text-align: center;
@@ -305,5 +298,6 @@ td
 #last
 {
     width: 20%;
+    text-align: center;
 }
 
