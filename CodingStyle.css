@@ -78,11 +78,19 @@ b{
     background-color: #B0E792;
 }
 
-#cond_table button
+button
 {
     height: 3em;
     width: 10em;
-    background-color: #B0E792;
+    
+    background-color: #a5d771;
+    margin-top: 40px;
+    border-radius: 10px; 
+    display: inline-block;
+    list-style: none;
+    width: 180px;
+    height: 55px;
+    font-size: 13px;
 }
 #cond_table p
 {
@@ -104,8 +112,9 @@ b{
     padding-top: 20px;
 }
 
-.btn{
-background-color: #a5d771;
+.btn
+{
+    background-color: #a5d771;
     margin-top: 40px;
     border-radius: 10px; 
     display: inline-block;
