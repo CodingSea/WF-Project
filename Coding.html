@@ -4,7 +4,6 @@
 <head>
     <title>conditionals</title>
     
-    <link rel="stylesheet" type="text/css" href="subStyle.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="CodingStyle.css">
     
@@ -89,22 +88,22 @@
                 <tr>
                     <td class="f">Normal If statement</td>
                     <td id="code" class="middle"><p id="code_text"></p></td>
-                    <td><button type="button" onclick="generate2()"> click to generate code </button></td>
+                    <td class="greenBtn" onclick="generate2()">click to generate code</td>
                 </tr>
                 <tr>
                     <td class="f">elseif & else</td>
                     <td id="code2" class="middle"><p id="code2_text"></p></td>
-                        <td><button type="button" onclick="generate3()"> click to generate code </button></td>
+                    <td class="greenBtn" onclick="generate3()">click to generate code</td>
                 </tr>
                 <tr>
                     <td class="f">not operator</td>
                     <td id="code4" class="middle"><p id="code4_text"></p></td>
-                            <td><button type="button" onclick="generate4()"> click to generate code </button></td>
+                    <td class="greenBtn" onclick="generate4()">click to generate code</td>
                 </tr>
                 <tr>
                     <td class="f">and operator</td>
                     <td id="code5" class="middle"><p id="code5_text"></p></td>
-                          <td><button type="button" onclick="generate5()"> click to generate code </button></td>
+                    <td class="greenBtn" onclick="generate5()">click to generate code</td>
                 </tr>
             </table>
 
@@ -132,11 +131,12 @@
         <!-- this section is for the loops table -->
         <div id="loops">
             <h1 class="sub-header">Loops</h1>
-            
+            <!-- this text is for explaining the loops table -->
             <p class="c">Loops are control structures that let you run a section of code repeatedly. They are helpful for iterating over data sets and automating repetitive activities, 
                     making it easier to perform repetitive tasks. There are three <br>
                         types of loops in Python: for loop, while loop, and do-while loop.<br>
                          Here's an explanation of each loop type along with examples:</p>
+            <!-- this is the loops table -->
             <table>
                 <tr>
                     <td><p><b>for Loop:</b>
@@ -148,8 +148,8 @@
                         </td>
                     
                     <td id="code6"></td>
-                    <td>
-                    <button type="button" onclick="generate6()"> click to generate code </button>
+                    <td id="last" class="greenBtn" onclick="generate6()">
+                    click to generate code
                     </td>
                 </tr>
                 <tr>
@@ -159,8 +159,9 @@
                         code as long as a given condition is True.<br>
                         It is useful when you don't know the number of <br>
                         iterations in advance.</p>
-                        </td>
-                    <td id="code7"><td><button type="button" onclick="generate7()"> click to generate code </button></td>
+                    </td>
+                    <td id="code7"></td>
+                    <td id="last" class="greenBtn" onclick="generate7()">click to generate code</td>
                 </tr>
                 <tr>
                     <td ><p><b>do-while Loop (emulated in Python):</b><br>
@@ -169,15 +170,17 @@
                          but you can emulate it using a while loop with a <br>
                          condition that is initially True.<br>
                         The block of code is executed at least once, <br>
-                        and then the condition is checked for further iterations.</p></td>
-                    <td id="code8"><td><button type="button" onclick="generate8()"> click to generate code </button></td>
+                        and then the condition is checked for further iterations.</p>
+                    </td>
+                    <td id="code8"></td>
+                    <td id="last" class="greenBtn" onclick="generate8()">click to generate code</td>
                 </tr>
             
             </table>
         </div>
 
         <div id="rights">
-        <p>© Coding Ninja | All rights reserved</p>
+        <p>©2023 Coding Ninja | All rights reserved</p>
     </div>
     
 </body>
