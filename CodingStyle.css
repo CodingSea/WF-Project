@@ -64,6 +64,8 @@ b{
     border: #49a298 solid 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    
+    width: 30%;
 }
 
 #cond_table .f
@@ -97,13 +99,7 @@ th
 
 #cond_table p
 {
-    color:black;
-}
-
-
-#question
-{ 
-    margin-left: 10em;
+    color:white;
 }
 
 #question p{
@@ -141,7 +137,7 @@ background-color: #a5d771;
 }
 #generated_code_space p 
 {
-    color: black;
+    color: white;
      font-size: 16px;
     letter-spacing: 1.1px;
     word-spacing: 1.1px;
@@ -149,10 +145,6 @@ background-color: #a5d771;
     padding: 15px;
 }
 
-#loops
-{
-    
-}
 #loops p
 {
     font-size: 18px;
@@ -160,21 +152,11 @@ background-color: #a5d771;
     line-height: 1.3; 
     color: #fff;
 }
-#loops table
-{
-  margin: auto;
-  padding: 0%;
-  margin-bottom: 3em;
-}
 
 #loops td
 {
     padding: 1.5em;
     border: #49a298 solid 2px;
-}
-#loops span
-{
-    color: black;
 }
 
 .c
@@ -210,26 +192,6 @@ table td
     width: 40%;
 }
 
-
-
-
-#generated_code_space
-{
-    clear: both;
-    width: 35%;
-    margin-left: 15em;;
-}
-#generated_code_space p 
-{
-    color: black;
-}
-
-#cond_table .f
-{
-    text-align: center;
-}
-
-
 p
 {
     color:white;
@@ -244,9 +206,8 @@ th
 {
     color: #B0E792;
     margin-left: 15em;
+    clear: both;
 }
-
-
 
 #loops
 {
@@ -263,26 +224,9 @@ th
     border: #49a298 solid 2px;
 }
 
-#loops td
-{
-    padding: 1.5em;
-    border: #49a298 solid 2px;
-}
-
 #loops span
 {
     color: white;
-}
-
-#question
-{
-    clear: both;
-}
-
-#cond_table td
-{
-    width: 30%;
-    text-align: center;
 }
 
 td
