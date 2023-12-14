@@ -12,11 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 
-    
+    <!-- this script is for getting the saved username -->
     <script src="login.js"></script>
+    <!-- this script is for adding the answers to the tables and other parts of the page -->
+    <script src="subScript.js"></script>
 </head>
 <body onload="getUsername()">
     
+    <!-- this section is for the navigation tabs -->
      <div class="container">
             <nav>
                 <a href="home.html"><img src="images/homepagebackground1.jpeg" class="logo"></a>
@@ -31,9 +34,10 @@
                 </ul>
             </nav>
         </div>    
-        
+            <!-- this part is for the header -->
             <h1 class="header">conditionals and Loops</h1>
         
+        <!-- this section is "if statment" information -->
         <div class="if">
             <h1 class="sub-header">if statment</h1>
             
@@ -74,7 +78,7 @@
             </p>
         </div>
     
-        
+        <!-- this section is for the Conditional table -->
         <div id="cond_table">
             <table>
                 <tr>
@@ -106,25 +110,26 @@
 
         </div>
     
-            
+        <!-- this section is for the question -->
         <div id="question">
             <p>
             [+] Answer the following question:<br>
             Write a code that uses if statement and and operator to compare age variable<br>
              and print on screen if this is and adult or underage?
             </p>
-         
+            
+            <!-- this button is for adding the answer to the page -->
             <button type="button" class="btn"  onclick="generate()">view answer</button>
         </div>
 
-        <script src="subScript.js"></script>
+        
 
         <div id="generated_code_space">
             <p id="generated_code_space_text"></p>
       
         </div>
         
-    
+        <!-- this section is for the loops table -->
         <div id="loops">
             <h1 class="sub-header">Loops</h1>
             
@@ -168,7 +173,7 @@
                     <td id="code8"><td><button type="button" onclick="generate8()"> click to generate code </button></td>
                 </tr>
             
-                </table>
+            </table>
         </div>
 
         <div id="rights">
