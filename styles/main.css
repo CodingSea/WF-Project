@@ -10,24 +10,18 @@
     padding: 0.5em;
 }
 
-*{
+*
+{
 padding: 0;
 margin: 0; 
 font-family: 'poppins', sans-serif;
 box-sizing: border-box;
 }
 
-body{
+body
+{
     background-color: #081828;
     color: #fff;
-}
-
-#header{
-    width: 100%;
-    height: 99vh;
-    background-image: url(images/homepagebackground1.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
 .navbtn{
