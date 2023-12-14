@@ -1,12 +1,3 @@
-#rights{
-clear: both;
-width: 100%;
-display: flex;
-margin: auto;    
-align-items: center;
-justify-content: center;
-}
-
 .header{ 
     text-align: center;
     padding-top: 110px;

@@ -1,10 +1,13 @@
-#rights{
-clear: both;
-width: 100%;
-display: flex;
-margin: auto;    
-align-items: center;
-justify-content: center;
+#rights
+{
+    clear: both;
+    width: 100%;
+    display: flex;
+    margin: auto;    
+    align-items: center;
+    justify-content: center;
+    background-color: #1d2e3f;
+    padding: 0.5em;
 }
 
 *{
