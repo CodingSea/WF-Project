@@ -20,7 +20,11 @@ function register()
     {
         alert("Mobile number needs to be 8 digits");
     }
-    else if(ps.length == 0)
+    else if(email.length == 0)
+    {
+        alert("There must be an Email");
+    }
+    else if(ps.length >= 8)
     {
         alert("There must be a Password");
     }
