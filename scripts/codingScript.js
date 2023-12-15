@@ -5,14 +5,14 @@ function generate()
     document.getElementById("generated_code_space").style.backgroundColor = "#1d2e3f";
 
     var code = `# set age variable<br>
-    age = int(22)<br>
+    age <span class="brown">=</span> int(<span class="red">22)<br>
     # Check the age and display a message based on the condition <br>
-    if age < 18: <br>
-        print('You are underage.') <br>
-    elif age >= 18 and age < 65: <br>
-        print('You are an adult.')  <br>
-    else: <br>
-        print('You are a senior citizen.')`;
+    <span class="brown">if</span> age <span class="brown"><</span> <span class="red">18</span>: <br>
+        <span class="brown">print</span>('You are underage.') <br>
+    <span class="brown">elif</span> age >= <span class="red">18</span> and age</span> < <span class="red">65</span>: <br>
+        <span class="brown">print</span>('You are an adult.')  <br>
+    <span class="brown">else</span>: <br>
+        <span class="brown">print</span>('You are a senior citizen.')`;
     document.getElementById("generated_code_space_text").innerHTML = code;
     document.getElementById("generated_code_space_text").style.color = "white";
 }
