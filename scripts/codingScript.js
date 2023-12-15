@@ -14,7 +14,6 @@ function generate()
     <span class="brown">else</span>: <br>
         <span class="brown">print</span>(<span class="green">'You are a senior citizen.'</span>)`;
     document.getElementById("generated_code_space_text").innerHTML = code;
-    document.getElementById("generated_code_space_text").style.color = "white";
 }
 
 function generate2()
@@ -24,30 +23,28 @@ function generate2()
     <span class="brown">if</span> b <span class="brown">></span> a:<br>
       &emsp; <span class="brown">print</span>(<span class="green">"b is greater than a"</span>)`;
     document.getElementById("code_text").innerHTML = code;
-    document.getElementById("code_text").style.color = "white";
 }
 
 function generate3()
 {
-    var code = `x = 0<br>
+    var code = `x <span class="brown">=</span> <span class="red">0</span><br>
 
-    if x > 0:<br>
-    &emsp; print("x is positive.")<br>
-    elif x < 0:<br>
-    &emsp; print("x is negative.")<br>
-    else:<br>
-    &emsp; print("x is zero.")`;
+    <span class="brown">if</span> x ></span> <span class="red">0</span>:<br>
+    &emsp; <span class="brown">print</span>(<span class="green">"x is positive."</span>)<br>
+    <span class="brown">elif</span> x <</span> <span class="red">0</span>:<br>
+    &emsp; <span class="brown">print</span>(<span class="green">"x is negative."</span>)<br>
+    <span class="brown">else</span>:<br>
+    &emsp; <span class="brown">print</span>(<span class="green">"x is zero."</span>)`;
     document.getElementById("code2_text").innerHTML = code;
-    document.getElementById("code2_text").style.color = "white";
 }
 
 function generate4()
 {
 
-    var code = `has_passed_exam = False<br>
+    var code = `has_passed_exam = <span class="red">False</span><br>
 
-                        if not has_passed_exam:<br>
-                            &emsp;print("You have not passed the exam.")`;
+                        <span class="brown">if not</span> has_passed_exam:<br>
+                            &emsp;<span class="brown">print</span>(<span class="green">"You have not passed the exam."</span>)`;
     document.getElementById("code4_text").innerHTML = code;
     document.getElementById("code4_text").style.color = "white";
 }
@@ -56,47 +53,46 @@ function generate4()
 function generate5()
 {
 
-    var code = `x = 10<br>
-    y = 5<br>
+    var code = `x <span class="brown">=</span> <span class="red">10</span><br>
+    y <span class="brown">=</span> <span class="red">5</span><br>
     
-    if x > 0 and y > 0:<br>
-      &emsp;  print("Both x and y are positive.")`;
+    <span class="brown">if</span> x <span class="brown">></span> <span class="red">0</span> and y <span class="brown">></span> <span class="red">0</span>:<br>
+      &emsp;  <span class="brown">print</span>(<span class="green">"Both x and y are positive."</span>)`;
     document.getElementById("code5_text").innerHTML = code;
-    document.getElementById("code5_text").style.color = "white";
 }
 
 
 /* LOOPS */
 function generate6()
 {
-    var code = `<span>fruits = ["apple", "banana", "cherry"]<br>
+    var code = `fruits <span class="brown">=</span> [<span class="green">"apple"</span>, <span class="green">"banana"</span>, <span class="green">"cherry"</span>]<br>
 
-    for fruit in fruits:<br>
-        &emsp; print(fruit)</td></span>`;
+    <span class="brown">for</span> fruit <span class="brown">in</span> fruits:<br>
+        &emsp; <span class="brown">print</span>(fruit)`;
     document.getElementById("code6").innerHTML = code;
 }
 
 function generate7()
 {
 
-    var code = `<span> count = 1<br>
+    var code = `count <span class="brown">=</span> <span class="red">1</span><br>
 
-    while count <= 5:<br>
-        &emsp; print("Count:", count)<br>
-       &emsp; count += 1</td></span>`;
+    <span class="brown">while</span> count <span class="brown"><=</span> <span class="red">5</span>:<br>
+        &emsp; <span class="brown">print</span>(<span class="green">"Count:"</span>, count)<br>
+       &emsp; count <span class="brown">+=</span> <span class="red">1</span>`;
     document.getElementById("code7").innerHTML = code;
 }
 
 function generate8()
 {
 
-    var code = `<span>count = 1<br>
+    var code = `count <span class="brown">=</span> <span class="red">1</span><br>
 
-    while True:<br>
-        &emsp; print("Count:", count)<br>
-        &emsp; count += 1<br>
-        if count > 5:<br>
-        &emsp;break</td></span>`;
+    <span class="brown">while</span> <span class="red">True</span>:<br>
+        &emsp; <span class="brown">print</span>("Count:"</span>, count)<br>
+        &emsp; count <span class="brown">+=</span> <span class="red">1</span><br>
+        <span class="brown">if</span> count <span class="brown">></span> <span class="red">5</span>:<br>
+        &emsp;<span class="brown">break</span>`;
     document.getElementById("code8").innerHTML = code;
 }
 
