@@ -16,17 +16,17 @@ function register()
     {
         alert("Last name needs to be 3 letters or more");
     }
-    else if(mNumber.length != 8)
+    else if(mNumber.length != 8 || isOnlyDigits(mNumber) == false)
     {
         alert("Mobile number needs to be 8 digits");
     }
-    else if(email.length == 0)
+    else if(email.includes("@") == false || email.includes(".com") == false)
     {
         alert("There must be an Email");
     }
-    else if(ps.length >= 8)
+    else if(ps.length < 8)
     {
-        alert("There must be a Password");
+        alert("Password is incorrect");
     }
     else
     {
@@ -50,4 +50,19 @@ function getUsername()
     }
     
     
+}
+
+
+function isOnlyDigits(string) 
+{
+   for (let i = 0; i < string.length; i++) 
+   {
+      var ascii = string.charCodeAt(i);
+       
+      if (ascii < 48 || ascii > 57) 
+      {
+         return false;
+      }
+   }
+   return true;
 }
