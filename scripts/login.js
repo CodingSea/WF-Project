@@ -26,7 +26,7 @@ function register()
     }
     else if(ps.length < 8)
     {
-        alert("Password is incorrect");
+        alert("Password is not strong enough");
     }
     else
     {
