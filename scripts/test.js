@@ -182,11 +182,14 @@ function loadQuestions()
     
 }
 
-
 function updateGrade()
 {
     grade++;
     
-    document.getElementById("grade").innerHTML = `Your Result is `+ grade + `/` + questions.length +``;
+    document.getElementById("grade").innerHTML = `Your Result is `+ grade + `/` + questions.length +`` + `<br> <button class="checkBtn" onclick="refreshPage()">Try Again</button>`;
 }
 
+function refreshPage()
+{
+    window.location.reload();
+} 

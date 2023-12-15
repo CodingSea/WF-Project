@@ -21,7 +21,7 @@ b{
 
 .if
 {
-    width: 40%;
+    width: 50%;
     float: left;   
 }
 
@@ -46,7 +46,7 @@ b{
 {
     border: #49a298 solid 2px;
     margin-top: 15em;
-    width: 50%;
+    width: 40%;
     margin-right: 8em;
     float: right;
 }
