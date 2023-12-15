@@ -4,25 +4,25 @@ function generate()
 {
     document.getElementById("generated_code_space").style.backgroundColor = "#1d2e3f";
 
-    var code = `# set age variable<br>
-    age <span class="brown">=</span> int(<span class="red">22)<br>
-    # Check the age and display a message based on the condition <br>
+    var code = `<span class="gray"># set age variable</span><br>
+    age <span class="brown">=</span> <span class="yellow">int</span>(<span class="red">22</span>)<br>
+    <span class="gray"># Check the age and display a message based on the condition</span> <br>
     <span class="brown">if</span> age <span class="brown"><</span> <span class="red">18</span>: <br>
-        <span class="brown">print</span>('You are underage.') <br>
+        <span class="brown">print</span>(<span class="green">'You are underage.'</span>) <br>
     <span class="brown">elif</span> age >= <span class="red">18</span> and age</span> < <span class="red">65</span>: <br>
-        <span class="brown">print</span>('You are an adult.')  <br>
+        <span class="brown">print</span>(<span class="green">'You are an adult.'</span>)  <br>
     <span class="brown">else</span>: <br>
-        <span class="brown">print</span>('You are a senior citizen.')`;
+        <span class="brown">print</span>(<span class="green">'You are a senior citizen.'</span>)`;
     document.getElementById("generated_code_space_text").innerHTML = code;
     document.getElementById("generated_code_space_text").style.color = "white";
 }
 
 function generate2()
 {
-    var code = `a = 33<br>
-    b = 200<br>
-    if b > a:<br>
-      &emsp; print("b is greater than a")`;
+    var code = `a <span class="brown">=</span> <span class="red">33</span><br>
+    b <span class="brown">=</span> <span class="red">200</span><br>
+    <span class="brown">if</span> b <span class="brown">></span> a:<br>
+      &emsp; <span class="brown">print</span>(<span class="green">"b is greater than a"</span>)`;
     document.getElementById("code_text").innerHTML = code;
     document.getElementById("code_text").style.color = "white";
 }

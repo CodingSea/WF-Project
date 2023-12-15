@@ -21,7 +21,7 @@ b{
 
 .if
 {
-    width: 50%;
+    width: 40%;
     float: left;   
 }
 
@@ -46,7 +46,7 @@ b{
 {
     border: #49a298 solid 2px;
     margin-top: 15em;
-    width: 40%;
+    width: 50%;
     margin-right: 8em;
     float: right;
 }
@@ -56,7 +56,7 @@ b{
     padding-left: 0.5em;
     padding-right: 0.5em;
     
-    width: 30%;
+    width: 33%;
 }
 
 #cond_table .f
@@ -91,6 +91,11 @@ th
 #cond_table p
 {
     color:white;
+}
+
+#cond_table table
+{
+    width: 100%;
 }
 
 #question p{
@@ -228,6 +233,8 @@ td
 .greenBtn
 {
     background-color: #B0E792;
+    text-align: center;
+    color: black;
 }
 
 #last
@@ -253,5 +260,15 @@ td
 .green
 {
     color: #729465;
+}
+
+.yellow
+{
+    color: #d6c97a;
+}
+
+.gray
+{
+    color: gray;
 }
 
