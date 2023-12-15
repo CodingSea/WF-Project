@@ -8,11 +8,11 @@ function register()
     var email = document.getElementById("email").value;
     var ps = document.getElementById("ps").value;
 
-    if(fName.length < 3)
+    if(fName.length < 3 || checkAlphabets(fName) == false)
     {
         alert("First name needs to be 3 letters or more");
     }
-    else if(lName.length < 3)
+    else if(lName.length < 3 || checkAlphabets(lName) == false)
     {
         alert("Last name needs to be 3 letters or more");
     }
@@ -66,3 +66,16 @@ function isOnlyDigits(string)
    }
    return true;
 }
+
+
+
+function checkAlphabets(input) 
+{ 
+    for (const char of input) { 
+        if (!(char >= "a" && char <= "z") && 
+            !(char >= "A" && char <= "Z")) { 
+            return false; 
+        } 
+    } 
+    return true; 
+} 

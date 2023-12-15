@@ -14,7 +14,7 @@
     <script src="scripts/login.js"></script>
     <script src="https://kit.fontawesome.com/bb91def98c.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="getUsername()">
     
 <div id="header">
         <div class="container">
@@ -27,6 +27,7 @@
                     <li><a href="Test.html">Tests</a></li>
                     <li><a href="story.html">Our Story</a></li>
                     <li><a href="MakingOf.html">The Making</a></li>
+                    <li><p id="username"></p></li>
                     <a href="#signup"><button class="navbtn">Register</button></a>
                 </ul>
             </nav>
