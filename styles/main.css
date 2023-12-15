@@ -16,6 +16,15 @@
     letter-spacing: 1.1px;
     word-spacing: 1.1px;
     line-height: 1.3; 
+    color: white;
+}
+
+#username
+{
+    font-size: 1.2em;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    line-height: 1.3; 
     color: #B0E792;
 }
 
