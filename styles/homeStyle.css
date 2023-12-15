@@ -67,13 +67,15 @@ margin-bottom: 90px;
 }
 
 
-.form{
+.form
+{
     display: flex;
     flex-direction: column;
-    grid-row-gap: 10px;
-    max-width: 380px;
-    background:#1d2e3f;
-    padding: 20px;
+    grid-row-gap: 0.8em;
+    grid-column-gap: 0.8em;
+    max-width: 23.75em;
+    background: #1d2e3f;
+    padding: 1.5em;
     border-radius: 20px;
     position: relative;
     box-shadow: 0 5px 25px black;
@@ -112,7 +114,7 @@ padding:1em;
 .form-comp{
     display: flex;
     width: 100%;
-    grid-row-gap: 6px;
+    grid-column-gap: 1em;
 }
 
 .form label{
